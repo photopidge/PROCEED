@@ -1,0 +1,490 @@
+Changes made in PROCEED database, both TimeSeriesDB and RatesDB
+
+Original version:
+	RatesDB:	PROCEED Rates DB v5 for upload 2021-11-25.csv (GitHub)
+	TimeSeriesDB:	Harvesting Time Series 2021_10_20.csv
+
+Who made this changes:
+	Lucas D. Gorné
+	Postdoctoral fellow at Brock University 2021-10 to 2022-10
+	Under supervision of Kiyoko Gotanda (Brock University)
+	Cosupervised by Andrew Hendry (McGill University) and Fanie Pelletier (Sherbrook University)
+
+
+Date: 2022-01
+
+ - (RatesDB) There were two pending issues columns ("pending_issues" and "pending.issues"). I joint comments from both in only one column "pending_issues"
+
+ - (RatesDB) Spaces, dashes, brackets and other symbols in column names can create issues in importing and processing data. I edited some column names as follows:
+
+	Native Response to Invasive -> resp_introduced
+	Landscape Change -> landscape_change
+	Climate Change	-> climate_change
+	Reference comments -> reference_comments
+
+
+ - (RatesDB) I reordered some columns because convenience. The new order of variables is:
+	
+	es_ID
+	ref_ID
+	sys_ID
+	species
+	taxa
+	taxa_fine
+	system
+	comments_on_system
+	sex
+	sample1
+	sample2
+	sample1.latitude
+	sample1.longitude
+	sample2.latitude
+	sample2.longitude
+	coordinate.means
+	coordinates.notes
+	landmark
+	design
+	genphen
+	years
+	gtime
+	gtime.notes
+	generations
+	trait_description
+	Roff_Mousseau
+	Kingsolver_Diamond
+	data.type
+	new.data.type
+	data.scale
+	outlier
+	n1_r
+	n2_r
+	mean1_r
+	mean2_r
+	sd1_r
+	sd2_r
+	n1_ln
+	n2_ln
+	mean1_ln
+	mean2_ln
+	sd1_ln
+	sd2_ln
+	out_in
+	urban_disturbance
+	driver
+	old_disturbance
+	new_disturbance
+	Introductions
+	Other
+	resp_introduced
+	Hunting_Harvesting
+	landscape_change
+	Pollution
+	climate_change
+	time.series
+	tserieshandling
+	comments
+	DOI
+	reference
+	reference_comments
+	copyright
+	who
+	repeated_systems
+	pending_issues
+
+ - (RatesDB) I changed spelling in "new_disturbance" = "Hunting/Harvesting" with "new_disturbance" = "Hunt_harv" 
+
+ - (RatesDB) In situations where a population is released from the hunting/harvesting disturbance, I changed:
+	"new_disturbance" = "Hunt_harv" with "new_disturbance" = "Other"
+
+	This population under to sitiatios is two systems. So when nedeed I split this in two systems.
+	I added two variables, "released_syst" (keeps information of the system previous to being released) and "released_from" (keeps the information of the change and/or time series for a specific trait and system previous to being released).
+
+
+ - (TimeSeriesDB) There was a comment in the last, no-named column (**Confirm Pairwise groups from here**). I added a column name "obs" for general observations
+
+ - (TimeSeriesDB) I replaced "Rate_ID" with "es_ID". This variable is a unique identifier for each time series and it is related to a specific rate in the RatesDB. Each time series corresponds to a rate of change in an Allochronic design in the RatesDB, so this ID is the same. Additionally, I checked (and modified as needed) all es_ID in TimeSeriesDB for consistency with RatesDB.
+
+ - (TimeSeriesDB) The variables "Anthro/Nat(6Nat)" and "Anthro/Nat(6Anthro)" have exactly the same information. I removed "Anthro/Nat(6Nat)"
+
+ - (TimeSeriesDB) The variable "Pairwise group" is a counting variable of the number of time series (coming from allochronic pairwise comparisons). It is redundant with "es_ID". I removed "Pairwise group".
+
+ - (TimeSeriesDB) Spaces, dashes, brackets and other symbols in column names can create issues in importing and processing data. Additionally, it is convenient that variables linking with RatesDB were spelt in the same way. I edited the column names as follows:
+	es_ID -> es_ID
+	Ref_ID -> ref_ID
+	Sys_ID -> sys_ID
+	Reference -> reference
+	Species -> species
+	System -> system
+	Taxa -> taxa
+	Disturbance -> old_disturbance
+	Out/in -> out_in
+	Anthro/Nat(6Anthro) -> anthro_nat
+	Sex -> sex
+	GenPhen -> genphen
+	Design -> design
+	Trait -> trait_description
+	Data type -> data.type
+	Data Scale -> data.scale
+	Population/Sample -> sample1
+	Population/Sample2 -> sample2
+	Years -> years
+	GTime -> gtime
+	Generations -> generations
+	Year -> date_year
+	N -> n
+	M -> mean
+	SD -> sd
+	obs -> obs
+
+ - (TimeSeriesDB) system s156, time series es4598, es4599, es4600, es4601, es4602, and es4603:
+	The different name species were replaced with the name used in RatesDB ("Rana esculenta complex").
+
+ - (TimeSeriesDB) in p139 the surname in "reference" was fixed (replacement of "Calvillo" with "Delgadillo Calvillo")
+ - (TimeSeriesDB) in p139 the journal volume number in "reference" was fixed (replacement of "38" with "39")
+ - (RatesDB) in p139 the surname in "reference" was fixed (replacement of "Calvillo" with "Delgadillo Calvillo")
+
+ - (RatesDB) in es4084 (p126; s126) I fixed "sample2" (replacement of "Blue tit Oosterhaut (1979)" with "Blue tit Oosterhaut (1998)")
+ - (RatesDB) in p126, s126 I added the "es9214" correspondig to Blue Tit in Vlieland
+
+ - (RatesDB) Gadus morhua, systems in Canadian shores. A system (s437) from Hutchings 2005 (NOFA 4Vs), was included within s409 from Beacham 1983 (NOFA 4Vs, 4Vn, 4W, 4X). I splited s409 into four systems:
+	NOFA 4Vs -> s437
+	NOFA 4Vn -> s409
+	NOFA 4W -> s1814
+	NOFA 4X -> s1815
+
+ - (RatesDB) Gadus morhua, systems in Canadian shores. A system (s065) from Olsen 2004 (NOFA 2J, 3K, 3L, 3N, 3O, 3Ps) was overlaped with five systems (s1649, s1650, s1651, s1652, s1653) from Olsen 2005 (NOFA 2J, 3K, 3L, 3N+3O, 3Ps). Additionally, all this systems included two situations Harvesting and Moratorium period. I reordered these systems as followed:
+	NOFA 2J (fishing period) -> s1649
+	NOFA 3K (fishing period) -> s1650
+	NOFA 3L (fishing period) -> s1651
+	NOFA 3N+3O (fishing period) -> s1652
+	NOFA 3Ps (fishing period) -> s1653
+
+	NOFA 2J (moratorium period) -> s1816
+	NOFA 3K (moratorium period) -> s1817
+	NOFA 3L (moratorium period) -> s1818
+	NOFA 3N+3O (moratorium period) -> s1819
+	NOFA 3Ps (moratorium period) -> s1820
+
+	As a consequence es7427 to es7471 (all the es from p216) were modified by beeing computed only for the fishing period and es from es9215 to es9259 were added, recording the moratorium period.
+
+	Also, a system (s440) from Brattey et al. 2004 (NOFA 3Ps) was already included in s065 and it was the same than s1653. But here the system is "Gadus morhua (Atlantic cod) stock assessment in NAFO Subdiv. 3Ps, stock reopoened after 1997 after closing for moratorium in 1993". So, I kept as a different system.
+
+ - (RatesDB) in p092 (Olsen 2004, Nature 428: 932-935) I updated the "system" for moratorium period (es4024, es4026, es4028, es4030, es4032, es4034, es4036, es4038, es4041, es4043, es4046, es4049, es4051, es4053, es4055, es4057, es4059, es4062, es4064). I replaced "Gadus morhua (Atlantic cod) subjected to fishing pressure in Newfoundland and Labrador" with "Gadus morhua (Atlantic cod) in moratorium period after fishing pressure in Newfoundland and Labrador".
+
+ - (RatesDB) in p092 (Olsen 2004, Nature 428: 932-935) I updated the "new_disturbance" for moratorium period (es4024, es4026, es4028, es4030, es4032, es4034, es4036, es4038, es4041, es4043, es4046, es4049, es4051, es4053, es4055, es4057, es4059, es4062, es4064). I replaced "Hunt_harv" with "Other". I let the variables "Introductions", "Other", "resp_introduced", "Hunting_Harvesting", "landscape_change", "Pollution", "climate_change" with the values 0, 5, 0, 0, 0, 0, 1, respectively 
+
+ - (TimeSeriesDB) in p092 (Olsen 2004, Nature 428: 932-935) I updated the "system" for moratorium period (es4024, es4026, es4028, es4030, es4032, es4034, es4036, es4038, es4041, es4043, es4046, es4049, es4051, es4053, es4055, es4057, es4059, es4062, es4064). I replaced "Gadus morhua (Atlantic cod) subjected to fishing pressure in Newfoundland and Labrador" with "Gadus morhua (Atlantic cod) in moratorium period after fishing pressure in Newfoundland and Labrador".
+
+ - (TimeSeriesDB) Gadus morhua, systems in Canadian shores. A system (s065) from Olsen 2004 (NOFA 2J, 3K, 3L, 3N, 3O, 3Ps) was overlaped with five systems (s1649, s1650, s1651, s1652, s1653) from Olsen 2005 (NOFA 2J, 3K, 3L, 3N+3O, 3Ps). Additionally, all this systems included two situations Harvesting and Moratorium period. I reordered these systems as followed:
+	NOFA 2J (fishing period) -> s1649
+	NOFA 3K (fishing period) -> s1650
+	NOFA 3L (fishing period) -> s1651
+	NOFA 3N+3O (fishing period) -> s1652
+	NOFA 3Ps (fishing period) -> s1653
+
+	NOFA 2J (moratorium period) -> s1816
+	NOFA 3K (moratorium period) -> s1817
+	NOFA 3L (moratorium period) -> s1818
+	NOFA 3N+3O (moratorium period) -> s1819
+	NOFA 3Ps (moratorium period) -> s1820
+ 
+ - (RatesDB) Systems s064 and s1673 are the same system: Gadus morhua (Atlantic cod) in the southern Gulf of St Lawrence, response to fisheries/exploitation. I replaced sys_ID=s1673 with sys_ID=s064.
+
+ - (TimeseriesDB) Systems s064 (p117) and s1673 (p218) are the same system: Gadus morhua (Atlantic cod) in the southern Gulf of St Lawrence, response to fisheries/exploitation. I replaced sys_ID=s1673 with sys_ID=s064.
+
+ - (RatesDB) System s126 (Parus caeruleus), from p130 and p126, merges five populations and rates were computed separatelly for each population. So, I splited s126 into five systems. I kept s126 for Brunswick (52º16N; 10º32E) population (p130, Winkel 1997). I added s1821, s1822, s1823, and s1824 for Hoge Veluwe (52º05N 5ºE), Liesbos (51º35N 4º40E), Oosterhaut (51º55N 5º50E), and Vieland (53º15N 5ºE) populations (p126, Visser 2003).
+
+ - (TimeSeriesDB) System s126 (Parus caeruleus), from p130 and p126, merges five populations and rates were computed separatelly for each population. So, I splited s126 into five systems. I kept s126 for Brunswick (52º16N; 10º32E) population (p130, Winkel 1997). I added s1821, s1822, s1823, and s1824 for Hoge Veluwe (52º05N 5ºE), Liesbos (51º35N 4º40E), Oosterhaut (51º55N 5º50E), and Vieland (53º15N 5ºE) populations (p126, Visser 2003).
+
+ - (RatesDB) System s414 (Parus caeruleus), from p181, merges three populations from two different places and rates were computed separatelly for each population. So, I splited s414 into two systems. I kept s414 for French mainland (Rouviere) population. I added system s1825 for Pirio and Muro populations in Corsia.
+
+ - (RatesDB) System s129 (Parus caeruleus), from p130 and p126, merges five populations and rates were computed separatelly for each population. So, I splited s129 into five systems. I kept s129 for Brunswick (52º16N; 10º32E) population (p130, Winkel 1997). I added s1826, s1827, and s1828, for Hoge Veluwe (52º05N 5ºE), Liesbos (51º35N 4º40E), and Oosterhaut (51º55N 5º50E) populations (p126, Visser 2003). Vieland (53º15N 5ºE) population (p126, Visser 2003) was labbeled as s128 (like in p099, Postma 2005).
+
+ - (TimeSeriesDB) System s129 (Parus caeruleus), from p130 and p126, merges five populations and rates were computed separatelly for each population. So, I splited s129 into five systems. I kept s129 for Brunswick (52º16N; 10º32E) population (p130, Winkel 1997). I added s1826, s1827, and s1828, for Hoge Veluwe (52º05N 5ºE), Liesbos (51º35N 4º40E), and Oosterhaut (51º55N 5º50E) populations (p126, Visser 2003). Vieland (53º15N 5ºE) population (p126, Visser 2003) was labbeled as s128 (like in p099, Postma 2005).
+
+
+ - (RatesDB) From p211 (Barot et al 2005), the systems s1642 (Parus caeruleus in NAFO 3L+3N+3O) and s1643 (Parus caeruleus in NAFO 3Ps) are the same than s435 (from p198, Dwyer et al. 2007) and s436 (from p199, Morgan et al. 2002) respectively. Additionally all these systems includes periods of fishing with moratorium period. I reordered the systems as follows (and added new rates when necesary):
+	NAFO 2J+3K (fishing period) -> s1829
+	NAFO 3L+3N+3O (fishing period) -> s435
+	NAFO 3Ps (fishing period) -> s436
+
+	NAFO 2J+3K (moratorium period) -> s1641
+	NAFO 3L+3N+3O (moratorium period) -> s1642
+	NAFO 3Ps (moratorium period) -> s1643
+
+	Fishing period: up to 1993
+	Moratorium period: from 1994
+
+	The data extracted from figures from p198 and p199 was not in the workspace, I had to extract it again and I added it to the TimeSeriesDB. 
+
+ - (RatesDB) I added coordinates for system s1829 and s1641 (NAFO divisions 2J+3K)
+
+ - (TimeSeriesDB) I added time series corresponding to es5918 to es5925, and es9260 to es9267 (from p198 and p199). Time series added: es5918, es5919, es5920, es5921, es5922, es5923, es5924, es5925, es9260, es9261, es9262, es9263, es9264, es9265, es9266, es9267.
+
+ - (RatesDB) From p133 (Yeh 2004), the systems s084 (Junco hyemalis) merge two populations (Coastal and Mountain populations) and rates were computed separatelly for each population. So, I splited s084 into two systems. I kept s084 for the coastal population. I added s1830 for the mountain population.
+
+ - (RatesDB) There were several systems for the same Ovis canadensis population (Ram Mountain, Alberta, Canada). s122 from Coltman 2003 (1977-1999), measuring mean weight and mean horn length of males; s420 from Pigeon 2017 (1975-2012), measuring mean age-adjusted female mass; s444 and s445 from Pigeon 2016 (Hunted 1976-1995 vs unhunted period 1996-2015), measuring body mass, horn base circumference, and horn length both in males and females. Even when it is the same population, the time periods overlap and some traits are the same, the samples are different (different samples size, means and sd). I kept all the observations and time series, but I reaordered the systems as:
+	s122 -> Ovis canadensis in Ram Mountain, Alberta, Canada. Hunted period (up to 1995)
+	s445 -> Ovis canadensis in Ram Mountain, Alberta, Canada. Unhunted period (from 1996)
+
+ - (TimeSeriesDB) sex in es5869 time series was modified from female to mixed, in accordance of RatesDB.
+
+ - (RatesDB) es7473, p217, s1655 RatesDB said "Area 2A", but area 2A does not exist. It is Area 2E. Fixed.
+
+ - (TimeSeriesDB) es7482, p217, s1664 TimeSeriesDB said "Area 1" and RatesDB sayd "Area 12". According coordinates and figures in the papers, it is Area 12. Fixed.
+
+ - (RatesDB) p210, species name Gadus morhua had a bunch of spaces at the end. Removed
+
+ - (TimeSeriesDB) p210, species name Gadus morhua had a bunch of spaces at the end. Removed
+
+ - (RatesDB) p212, species name Oncorhynchus keta had a bunch of spaces at the end. Removed
+
+ - (TimeSeriesDB) p212, species name Oncorhynchus keta had a bunch of spaces at the end. Removed
+
+ - (RatesDB) p144, species name "Mustela vision" was replaced by "Mustela vison"
+
+ - (RatesDB) I removed authority from the species names Plantago major L., Brassica rapa L., Anthoxanthum odoratum L.
+
+ - (RatesDB) in p132 there were inconcistencies between species names and system description. es4309, es4310, and es4311 are Lupinus bicolor, these three were kept as s099. es4312, es4313, and es4314 are Lotus purshianus, these three were assigned to system s1787.
+
+ - (RatesDB) in p132 I added the following gtime.note:
+	"Lupinus bicolor is an annual, seeds require to be scattered to germinate and flowering depends on day lenght (Dunn DB. 1956. The Breeding Systems of Lupinus, Group Micranthi. American Midland Naturalist, 55:443-472). A generation time of one year seems accurate."
+	"Lotus purshianus, a dicot, is an annual herb. It flowers in spring (to early summer) (https://www.calflora.org/app/taxon?crn=10961). Seeds do not have primary dormancy (Guerrant Jr EO & Raven A. 1995. Seed germination and storability studies of 69 plant taxa native to the Willamette Valley wet prairie. Portland, OR: The Berry Botanic Garden). So, generation time is one year."
+
+	Also I added the papers Dunn 1956 and Guerrant 1995 to the folder of Wu 1985 in the workspace
+
+ - (RatesDB) in p131, s171 I added the following gtime.note:
+	"Richards (1997) have estimated average generation time in natural populations of S. latifolia to be approximately 1.5 years by direct census of marked plants (Richards CM. 1997. The ecological genetics of population establishment in Silene alba. PhD  Dissertation,  Duke  University, Durham, NC, USA.)"
+
+	Also I added the paper Richards 1997 to the folder of wolfe 2004 in the workspace
+
+ - (RatesDB) in p129, the "gtime" of systems s028, s047, s051, and s167 were modified according the following information (added to "gtime.notes"):
+	"Generation time averaged from the estimation from different sources. First, it was computed with data from Woodburn TL & Sheppard AW. 1996. The demography of Carduus nutans as a native and an alien weed. Plant Protection Quarterly, 11:236-238. Second, with transitions matrix from COMPADRE database (Matrices 242153, 242147, 242151, 242152 in COMPADRE Plant Matrix Database (2021). Available from: https://www.compadre-db.org/Species/46679 [17 May 2021, Version 6.21.1.0])."
+	"Digitalis purpurea is a facultative biennial, a monocarpic species that can complete their life cycle within 2 years, but where a delay of  reproduction until the third or later year is commonly observed because it must reach a threshold size to be able to be vernalized (Sletvold N. 2002. Effects of plant size on reproductive output and offspring performance in the facultative biennial Digitalis purpurea. Journal of Ecology, 90:958-966). While, 19% of seeds germinates in the same year their are release (in autum), 48% germinates in the following spring (Van Baalen J. 1982. Germination ecology and seed population dynamics of Digitalis purpurea. Oecologia, 53:61-67). Germination in autum allow a life cycle of one year, germination in springs allow a life cycle of two years (because vernalization is required). But also is posible that plants germinated in autum do not reach the size threshold required to be vernalized. Generation time computed from transitions matrices in COMPADRE database (Matrices 242803, 242806 in COMPADRE Plant Matrix Database (2021). Available from: https://www.compadre-db.org/Species/46874 [18 May 2021, Version 6.21.1.0]) vary from 3.47 to 7.84 years"
+	"The plant species E. vulgare (vipers's bugloss) is a self-compatible monocarpic perennial. Plants flowered at a mean age of 2.7 years on the sparse site and 3.4 years on the dense sites (Klemow KM & Raynal DJ. 1985. Demography of Two Facultative Biennial Plant Species in an Unproductive Habitat. The Journal of Ecology, 73:147-167). Levels of innate seed dormancy vary among populations, germination without cold stratification is low (less than 20%). Seed dispersal begins in mid Summer and continues through mid Autum. Most seedlings emerge in the spring (Klemow KM, Clements DR, Threadgill PF & Cavers PB. 2002. The biology of Canadian weeds. 116. Echium vulgare L. Canadian journal of plant science, 82:235-248).  So, generation time is 3.5 years (3 for flowering plus 6 month for stratification). The generation time computed from transition matrix in COMPADRE database (Matrix 242943 in COMPADRE Plant Matrix Database (2021). Available from: https://www.compadre-db.org/Species/46613 [18 May 2021, Version 6.21.1.0]) is consistent, 3.67ys"
+	"Jacobaea vulgaris (synonym Senecio jacobaea) is a monocarpic perennial that spends its first year as a rosette. Flowering may take place in the second year, but is often delayed (vernalization depending on a size threshold). Its seeds do not possess innate dormancy. Most of the individuals flowered in the thirth (2 years old) or in fourth (3 years old) year (Van der Meijden E & van der Waals-Kooi RE. 1979. The Population Ecology of Senecio Jacobaea in a Sand Dune System: I. Reproductive Strategy and the Biennial Habit. The Journal of Ecology, 67:131-153). So, generation time is 2.5 years. Generation time computed from transition matrices from COMPADRE database (Matrices 245528, 245531, 245534, 245537, 245540  in COMPADRE Plant Matrix Database (2021). Available from: https://www.compadre-db.org/Species/46711 [18 May 2021, Version 6.21.1.0]) are quite variable (from 6.31 to 54.8 years). I kept the GT of 2.5 years, but the uncertainty is large."
+
+	Also, the papers Woodburn & Sheppard 1996, Sletvold 2002, Van Baalen 1982, Klemow & Raynal 1985, Klemow et al 2002, and the files with generation time analyses were added to the willis 2000 folder in the Workspace.
+
+
+ - (RatesDB) in p016, the "gtime" of systems s191, s192, s193, s194, s036, s037, s038, and s039 were modified according the following information (added to "gtime.notes"):
+	
+	"Generation time computed from the COMPADRE database transition matrix (Matrix 246495 in COMPADRE Plant Matrix Database (2021). Available from: https://www.compadre-db.org/Species/46350 [18 May 2021, Version 6.21.1.0])) based on the work of Parker 1996 (Parker IM. 1996. Ecological factors affecting rates of spread in Cytisus scoparius, an invasive exotic shrub. Doctoral dissertation. University of Washintong)"
+	"Ulex europaeus starts to reproduce at 2 or 3 years old. It lives up to 30 years old. It follows the −3/2 law of self-thinning (Rees M & Hill RL. 2001. Large-scale disturbances, biological control and the dynamics of gorse populations. J Appl Ecol 38:364–377). We assume that an increase in fecundity with age compensates for mortality, so the contribution of each age to the next generation is constant. This assumption probably underestimates the generation time, but less than just using the age at maturity."
+
+	Also, the papers Parker 1996, Rees 2001 and the files with generation time analyses were added to the Buckley et al 2003 folder in the Workspace.
+
+ - (RatesDB) in p024 and p078, the "gtime" of system s007 was modified according the following information (added to "gtime.notes"):
+
+	"Generation time computed from COMPADRE database transition matrices (Matrices 241455, 241459, 241463, 241467, 241471, 241475, 241479, 241483, 241487, 241491, 241495, 241499, 241454, 241453, 241450, 241451, 241452 in COMPADRE Plant Matrix Database (2021). Available from: https://www.compadre-db.org/Species/46616 [20 May 2021, Version 6.21.1.0]). Plants live a year or less and flowered in their second year (Byers DL & Quinn JA. 1998. Demographic variation in Alliaria petiolata (Brassicaceae) in four contrasting habitats. Journal of the Torrey Botanical Society, 125:138-149). Seeds do not germinate in the same growing season because they need cold stratification (Anderson RC, Dhillion SS & Kelley TM. 1996. Aspects of the Ecology of an Invasive Plant, Garlic Mustard (Alliaria petiolata), in Central Illinois. Restoration Ecology, 4:181–191)."
+
+	Also, the papers Byers & Quinn 1998, Anderson et al 1996 and the files with generation time analyses were added to the Cipollini et al 2005 folder in the Workspace.
+
+ - (RatesDB) in p132, I added the coordinates to systems s099 and s1787.
+
+ - (RatesDB) in p132, es4310, es4311, es4313 and es4314 are phenotypic (not genetic). Measures were made in a common garden but on tillers extracted from field. Fixed.
+
+ - (RatesDB) in p125 (system s081), es4375 and es4376 are measurements of growing so, they are 	Kingsolver_Diamond="OtherLH". Even when growing at competence environment. Additionally, the two populations measured have 206 years of divergence (not only 54). The biological control was introduced 54 years ago, but here the comparison is not between populations in North America experiencing or not the biological control. Additionally, the "gtime" was modified according the following information (added to "gtime.notes"):
+	"According Maron et al 2004, Ecological Monographs, 74(2):261-280"
+
+ - (RatesDB) in p209, all cases where "design"="time series" were changed to "design"="Allochronic".
+
+ - (RatesDB) in p216, all cases where "taxa"="fish" were changed to "taxa"="Fish".
+
+ - (RatesDB) in p191, p192, p193, p195, p197, p198, p199, p201, p202, p203, p205, p206, p207, p208, p210, p211, p212, p213, p214 all cases where "sex"="Females" were changed to "sex"="female".
+
+ - (RatesDB) in p191, p195, p198, p199, p201, p203, p205, p210, p211 all cases where "sex"="Males" were changed to "sex"="male".
+
+ - (RatesDB) in p201, and p211 all cases where "coordinate.means"="Yes" were changed to "coordinate.means"="Y".
+
+ - (RatesDB) in p182 (es5802), "genphen"="genetic" was replaced with "genphen"="Genetic".
+ - (RatesDB) in p182, when "Roff_Mousseau"="Life-history" was replaced with "Roff_Mousseau"="Life-History".
+ - (RatesDB) in p182, when "Kingsolver_Diamond"="Phenology" was replaced with "Kingsolver_Diamond"="phenology".
+
+ - (RatesDB) in p190, all cases where "genphen"="phenotypic" were replaced with "genphen"="Phenotypic".
+
+ - (RatesDB) in p218, when "Roff_Mousseau"="morphological" was replaced with "Roff_Mousseau"="Morphological".
+
+ - (RatesDB) in p181, p210, p212, p213, and p214, when "Kingsolver_Diamond"="Size" was replaced with "Kingsolver_Diamond"="size".
+
+ - (RatesDB) in p177, p178, and p179, in all cases where trait is A50 (age at 50% maturity, years) "new.data.type"="time" was assigned. These were previously empty.
+
+ - (RatesDB) in p182, es5801 and es5803, traits are "residual clutch size" and "residual laying date". So, I assigned "new.data.type"="length residuals". These were previously empty.
+
+ - (RatesDB) in p190, when "new.data.type"="count " was replaced with "new.data.type"="count".
+
+ - (RatesDB) in p182 and p190, when "new.data.type"="date  " was replaced with "new.data.type"="date".
+
+ - (RatesDB) in p197, when "new.data.type"="Index" was replaced with "new.data.type"="index".
+
+ - (RatesDB) in p215 and p218, when "new.data.type"="length" was replaced with "new.data.type"="linear".
+
+ - (RatesDB) in p197 p198 p199 p200 p201 p202 p203 p204, when "new.data.type"="Length" was replaced with "new.data.type"="linear".
+
+ - (RatesDB) in p204, when "new.data.type"="Mass" was replaced with "new.data.type"="cube (3D)".
+
+ - (RatesDB) in p182, when "new.data.type"="other " was replaced with "new.data.type"="other".
+
+ - (RatesDB) in p200 p201 p203 p204, when "new.data.type"="Other" was replaced with "new.data.type"="time". the trait is A50 (the average age -years- to maturity).
+
+ - (RatesDB) in p190, when "new.data.type"="proportion       " was replaced with "new.data.type"="proportion".
+
+ - (RatesDB) in p217, when "new.data.type"="weight" was replaced with "new.data.type"="cube (3D)".
+
+ - (RatesDB) in p196, when "data.scale"="Interval" was replaced with "data.scale"="interval".
+
+ - (RatesDB) in p191 to p211, when "data.scale"="Ratio" was replaced with "data.scale"="ratio".
+
+ - (RatesDB) in p101, all traits are ratios of change (i.e. (X1-X2)/X1). These amounts are not proportions because are not bounded between 0 and 1. But, the scale has a Zero. So, "new.data.type"="index" was replaced with "new.data.type"="other" and "data.scale"="unknown" was replaced with "data.scale"="ratio".
+
+ - (RatesDB) in p044, es4440, the trait is "Leaf survival (number of days until tagged leaves had fully senesced)", this amount has a trully zero (i.e. leaf survival < 1 day). So, "data.scale"="unknown" was replaced with "data.scale"="ratio".
+
+ - (RatesDB) in p185, es5784 and es5785, the traits are "Clutch Size" and "Clutch Mass", but these are log-transformed. So, "data.scale"="unknown" was replaced with "data.scale"="ratio".
+
+ - (RatesDB) in the "out_in" variable, the "in" values was replaced with "In" values.
+
+ - (RatesDB) in the "new_disturbance" variable, the "Native response to invasive" values was replaced with "Response to introductions" values. This is in accordance with Sanderson et al 2021 paper. It can be a native or an introduced species responding to a newly introduced species. When it is native, "out_in"="In". When it is introduced, "out_in"="Out".
+
+ - (RatesDB) in p209, when "sex"="Males and Females" was replaced with "sex"="mixed".
+
+ - (RatesDB) in the "sex" variable, the "unknown" values were replaced with NAs
+
+ - (RatesDB) in general. I removed multiple empty spaces (i.e. "  ", "   ", "   ", and so on) from references, systems, and other variables.
+
+ - (RatesDB) in the "coordinate.means" variable, an empty cell means "NO". I filled these with "N" to diferentiate from a NA. If some coordinate value is missing, I let "coordinate.means" empty (i.e. NA). 
+
+ - (RatesDB) in general. I unified the string for missing data. I choose the empty cell, so when uploading the database to R use na.string==""
+
+ - (RatesDB) in the p166, species name "Senecio Squalidus" was replaced with "Senecio squalidus".
+
+ - (RatesDB) in the p217, species name "Oncorhynchus tshawystscha" was replaced with "Oncorhynchus tshawytscha".
+
+
+Date: 2022-02
+
+ - (RatesDB) I added observations from es7500 to es9213.
+
+ - (RatesDB) I added the following variables related to the system (experimental and exp_type):
+	experimental: states if the phenotypic change is driven by experimentally set conditions (N=no; Y=yes). It is not artificial selection (i.e. selection of specific attributes by choosing breeders and manipulating mating) but a process of natural selection in an experimental environment.
+
+	exp_type:
+		01: A new environmental condition is imposed on a natural population, in the field, in situ
+		03: A new environmental condition is imposed on a natural population, in the field, ex situ
+		05: A new environmental contidion is imposed on a natural population, in a common garden/greenhouse experiment
+		07: A new environmental condition is imposed on an artificial population (it was an even set of genotypes from a natural population) in the field.
+		09: A new environmental condition is imposed on an artificial population (it was an even set of genotypes from a natural population) in a common garden experiment.
+		11: A new environmental condition is imposed on an artificial population (it was obtained by randomly crossing F2 individuals from a set of interbreeds between contrasting genotypes selected from a natural population) in a common garden experiment.
+		13: A selection pressure/agent is applied on an artificial population (F1 hybrid, it was obtained by crossing two contrasting genotypes of inbreeded strains) in an experimental field/common garden.
+
+	sp_ncbi: The current name of the original taxon according to the National Center for Biotechnology Information (https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi). Two species were not found in the NCBI database, Stipa occidentalis and Diaptomus sanguineus, these names were checked in The Plant List (http://www.theplantlist.org/) and WORMS (https://www.marinespecies.org/index.php) respectively.
+
+ - (RatesDB) in the p129, system s167, in the system description I added the current name of the species according NCBI (Jacobaea vulgaris).
+
+ - (RatesDB) in the p209, all coordinates stated as 0, are NAs according the information in the workspace. I replaced "0" by empty cells (i.e. NAs)
+
+ - (RatesDB) in the p209, all gtimes stated as 0, are NAs according the information in the workspace. I replaced "0" by empty cells (i.e. NAs). The same as for "generations"
+
+ - (RatesDB) in the p002, s004, I added the following gtime.note: "Generation Time is considered as the number of years required for a species to start producing seeds (this can underestimate the actual generation time) according to: Engler R, Randin CF, Vittoz P, Czáka T, Beniston M, Zimmermann NE & Guisan A. 2009. Predicting future distributions of mountain plants under climate change: does dispersal capacity matter?. Ecography, 32:34-45."
+
+ - (RatesDB) in p038, the "gtime" of system s020 was modified according the following information (added to "gtime.notes"): "Authors guess that "one or two generations" have elapsed in the 70 years (Eränen 2009, Journal of Evolutionary Biology 22: 840-851). Transition matrix in COMPADRE database is one of shoots (ramets) transition matrix not one of individuals (genets) transition matrix. So, generation time can no be computed. We assume generation time equal to 70/1.5"
+
+ - (RatesDB) in p026, the "gtime" of system s088 was modified according the following information (added to "gtime.notes"): "Lactuca muralis a herbaceous perennial hemicryptophyte. The plant is winter green dying completely back after flowering in the summer but then producing a small overwintering rosette(s) from a bud(s) on the rootstock. The plant is generally not monocarpic. Reproduction is entirely by seed. Most seeds germinate in the autumn and overwinter as a small rosette although some germinate in the following spring. Newly shed achenes germinate readily, giving rise in nature to seedling populations immediately after the flowering period. Seeds may also germinate after overwintering in the following spring. Flowering is possible after one season providing plants reach an appropriate size. After flowering the plant dies back completely, but in the autumn anover wintering rosette is produced from a bud or buds on the rootstock (Clabby G & Osborne BA. 1999. Mycelis muralis (L.) Dumort.(Lactuca muralis (L.) Gaertner). Journal of ecology, 87:156-172). There is no information about the lifespan of each individual through the new rootstock rosettes. So, the minimum generation time is one year (this can underestimate the actual generation time).
+
+ - (RatesDB) in p076, the "gtime" of system s052 was modified from 1 to NA (empty cells). The information about generation time is not in the paper. Additionally, I was not able to find it in the literature and in "gtime.notes" or in the workspace, there is no information about the generation time of Elymus multisetus. Furthermore, this species is a long-lived perennial grass, so 1 year seems a severe underestimation of the actual generation time.
+
+ - (RatesDB) in p023 and p012, the "gtime" of system s101 was modified according the following information (added to "gtime.notes"): "The species has been described as a facultative annual because it can set seed in one growing season (Shipley and Parent 1991, Johansson and Keddy 1991), however, this description is misleading because the species is not semelparous. Lythrum salicaria is a perennial, with annual stems arising from a perennating rootstock. There are no reports in the literature concerning the longevity of single genets." (Mal TR, Lovett-Doust J, Lovett-Doust L & Mulligan GA. 1992. The biology of Canadian weeds. 100. Lythrum salicaria. Canadian Journal of Plant Science, 72:1305-1330.). Generation time was computed from COMPADRE database transition matices (Matrices 244356, 244359 in COMPADRE Plant Matrix Database (2021). Available from: https://www.compadre-db.org/Species/46816 [21 May 2021, Version 6.21.1.0])
+
+ - (RatesDB) in p060, the "gtime" of system s102 was modified according the following information (added to "gtime.notes"): While individual trees can live over 100 years (Dray 2003), they can become reproductive within 1–2 years (Meskimen 1962, Vardaman 1994). So, a generation time of 2 years is a serious underestimation.
+
+ - (RatesDB) in p026, the "gtime" of system s168 was modified according the following information (added to "gtime.notes"): Senecio sylvaticus is an annual, mostly autogamous plant. Within the group of annual Senecio species, S. sylvaticus is not as strict summer annual as the co-occurring S. viscosus, but has also not such a variable seasonality as S. vulgaris. S. sylvaticus is rooting in the litter layer (A00) and fermentation layer (A0) and is very unproductive on mineral soils. Achenes of S. sylvaticus genninated in Autum or in Spring. From late Spring to mid Summer no germination was observed. In addition to the two different periods of gennination, there was a great difference in plant biomass of both life forms in spring. The biomass of the winter annual life forms was more than ten fold that of the summer annual life form in the last days of May. Under natural conditions, the summer annual populations did flower from summer to autum. (Ernst, W. H. O. (1989). Selection of winter and summer annual life forms in populations of Senecio sylvaticus L. Flora, 182(3-4), 221-231)
+
+ - (RatesDB) in p056, p044, and p085  the "gtime" of system s173 was modified according the following information (added to "gtime.notes"): Solidago gigantea is very simmilar to Solidago altissima (see Solidago altissima GTimeNotes). Solidago gigantea is a tall, erect perennial herb with annual aboveground shoots and persistent belowground rhizomes. Solidago gigantea produces long-creeping plagiotropic, mostly purple or reddish rhizomes, mostly within the upper 10–20 cm of soil. In total, 3–50 rhizomes per ramet emerge close to the base of shoots from the previous year. Higher numbers have been observed after disturbances. Production of seeds, new shoots and new rhizomes occurs every year, and all aboveground shoots die back in autumn. Free carbohydrates are accumulated in the rhizome before the dormant period. Seedlings have never been observed within established patches of S. gigantea, suggesting that seeds are primarily important for long-distance dispersal and the colonization of new sites. However, seedlings may appear after a spring mowing, suggesting that successful establishment is dependent upon open conditions. In most cases, however, population increase is primarily the result of clonal growth. The relative significance of sexual reproduction increases with the age of the clone, whereas clonal growth is most essential during the first years after establishment. Individual clones are often easy to distinguish and frequently achieve 2–5 m diameter. Larger, older clones may contain thousands of ramets. Occasionally clones form ‘fairy circles’ around the initial centre of the genet. Under good conditions, almost all plants reproduce in their first year, and a single ramet produces up to 19,000 achenes. Under resource limited conditions, sexual reproduction is reduced to the benefit of vegetative growth (Weber E & Jakobs G. 2005. Biological flora of central Europe: Solidago gigantea Aiton. Flora - Morphology, Distribution, Functional Ecology of Plants, 200:109–118). Generation time should be long but I did not find any estimation. However, Meyer et al 2005 (Meyer G, Clare R, Weber E. 2005. An experimental test of the evolution of increased competitive ability hypothesis in goldenrod, Solidago gigantea. Oecologia, 144:299-307) observed that almost all plants grown from seeds flowered in the secon year, more than a half flowered in the first year. So, in newly colonized areas a generation time of 2 years can be assumed. This would be a far underestimation for established populations.
+
+ - (RatesDB) in p034, es4235 to es4238, there were no information about the source for a generation time of 2 years for Spartina alterniflora. Spartina alterniflora have clonal growing, and clones can reach 100m diameter (Buhle ER, Feist BE & Hilborn R. 2012. Population dynamics and control of invasive Spartina alterniflora: inference and forecasting under uncertainty. Ecological Applications, 22:880–893). So, its generation time should be quite long. Transition matrix in COMPADRE, is not for genets but ramets, and is a simulation matrix. A generation time of 2 years is a severe understimaton. The "gtime" of system s174 was modified from 2 to NA (empty cell)
+
+ - (RatesDB) I added the variable "c_value":
+	c-value is the amount, in picograms, of DNA contained within a haploid nucleus (e.g. a gamete) or one half the amount in a diploid somatic cell.
+	Detailed information of the variable in "species_genome.csv" and "species_genome_README.txt"
+
+	WHEN MORE THAN ONE VALUE IS AVAILABLE FOR ONE SPECIES
+	- If there is no difference in ploidy level or chromosome number among records, c-values were averaged.
+	- Records using Feulgen densitometry (Fe), flow citometry (FC_any type), DAPI microdensitometry (MDAPI), Gallocyanin chrom alum densitometry (GDC), or Fulgen image analysis densitometry (FIA) methods were prefered over other methods. So, when available, recods using these methods were choosen for averaging.
+	- in birds, if the genome size was estimated from several congeners, the value for each congener was averaged previously of averageing among congeners.
+	- in general, if the genome size was estimated from several subspecies, the value for each subspecies was averaged previously of averageing among them.
+	- in general, but specially in plants, when a species has more than one genome size due to differences in ploidy level or chromosome number, the system was revisited looking for information about particular ploidy levels of the involved populations for each case. If no information was found, the available c-values were averaged.
+
+
+
+
+
+ACÁ VOY
+##################
+
+
+
+
+
+##################
+
+
+agregados
+es_ID (desde es9213)
+	es9214
+	es9215 - es9259
+	es9260 - es9267
+	es9268 - es9276
+	es9277 - es9278
+	es9279
+
+
+sys_ID (desde s1813)
+	s1814
+	s1815
+	s1816
+	s1817
+	s1818
+	s1819
+	s1820
+	s1821
+	s1822
+	s1823
+	s1824
+	s1825
+	s1826
+	s1827
+	s1828
+	s1829
+	s1830
+
+ref_ID (desde p329)
+
+
+#####
+some lacking "es" in RatesDB:
+	Visser 2003, Proc. R. Soc. Lond. B 270: 367-372
+	Parus caeruleus
+	Parus caeruleus (blue tit) laying date monitored within its native range in Europe (VL: Vlieland)
+
+	notice that there are different time series for different populations, as well as there are different "es" for different populations
+
+ADD THIS LACKING RATE
+
+
+
+
+
+FALTA HACER
+ - (TimeSeriesDB) I added the following variables coming from the RatesDB:
+	new_disturbance
+ - (TimeSeriesDB) hacer coincidir sample1/sample2 con mismas variables de RatesDB
+
+ - (TimeSeriesDB) agregar un ID único para cada observación en la TimeSeriesDB "ito_ID"
+
+ - voy a hacer que los valores perdidos sean "" no NA, porque es más facil encontrarlos cuando se trabaja en la hoja de calculo y para que sea consistente con el resto
+
+hay muchas variables que son propiedades de la serie temporal completa, no de la obsercavión particular, en ese sentido es información redundante con la RatesDB y no se si es útil.
+
+ver que pasa con este caso
+es4023es4024	p092	s065	Olsen 2004, Nature 428: 932-935
+
+
