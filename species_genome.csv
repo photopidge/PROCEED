@@ -1,0 +1,700 @@
+group,taxa,species,sp_ncbi,GS_source,GS_obs,Cvalue_1C_pg,ploidy,N_chromosomes_2n,method,congener
+invert,Annelid,Limnodrilus hoffmeisteri,Limnodrilus hoffmeisteri,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.87,NA,NA,Fe,no
+invert,Bivalve,Dreissena polymorpha,Dreissena polymorpha,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.7,NA,NA,FIA,no
+invert,Crustacean,Asellus aquaticus,Asellus aquaticus,"Valentino, F., Del Marco, A., & Rocchi, A. (1983). Nuclear DNA content of Asellus aquaticus and Proasellus coxalis. Mitt. Zool. Mus. Univ. Kiel, 1, 19-23.",c-value computed from table and new value of human c-value in the Animal Genome Size Database,2.34,2,16,Fe,no
+invert,Crustacean,Daphnia galeata,Daphnia galeata,NA,NA,NA,NA,NA,NA,NA
+invert,Crustacean,Daphnia galeata mendotae,Daphnia mendotae,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,synonym Hyalodaphnia mendotae,0.33,NA,NA,Fe,no
+invert,Crustacean,Daphnia melanica,Daphnia melanica,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.48,NA,NA,Fe,no
+invert,Crustacean,Daphnia retrocurva,Daphnia retrocurva,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.29,NA,NA,Fe,no
+invert,Crustacean,Diaptomus sanguineus,Onychodiaptomus sanguineus,NA,NA,NA,NA,NA,NA,NA
+invert,Gastropod,Littorina obtusata,Littorina obtusata,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.21,NA,34,FC_X,no
+invert,Gastropod,Nucella lapillus,Nucella lapillus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,"Three options, similar amount 2.6-2.8: I choose the most complete report with DNA content estimated from somatic cells",2.6,NA,NA,Fe,no
+invert,Gastropod,Physa virgata,Physella virgata,NA,NA,NA,NA,NA,NA,NA
+invert,Insect,Aedes albopictus,Aedes albopictus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,"Two options, similar amount. I choose the most complete report. Information is given as a range (0.62-1.66). I used the mean value.",1.14,NA,6,Fe,no
+invert,Insect,Calliphora vicina,Calliphora vicina,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.76,NA,NA,FC_X,no
+invert,Insect,Drosophila subobscura,Drosophila subobscura,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.15,NA,NA,FC_X,no
+invert,Insect,Jadera haematoloma,Jadera haematoloma,NA,NA,NA,NA,NA,NA,NA
+invert,Insect,Leptocoris tagalicus,Leptocoris tagalicus,NA,NA,NA,NA,NA,NA,NA
+invert,Insect,Onthophagus taurus,Onthophagus taurus,NA,NA,NA,NA,NA,NA,NA
+invert,Insect,Pararge aegeria,Pararge aegeria,NA,NA,NA,NA,NA,NA,NA
+invert,Insect,Pieris rapae,Pieris rapae,NA,NA,NA,NA,NA,NA,NA
+invert,Insect,Scathophaga stercoraria,Scathophaga stercoraria,NA,NA,NA,NA,NA,NA,NA
+invert,Insect,Wyeomyia smithii,Wyeomyia smithii,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.86,NA,6,Fe,no
+plant,Plant,Achillea millefolium,Achillea millefolium,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,4.88,4,36,FC_PI,no
+plant,Plant,Achillea millefolium,Achillea millefolium,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,7.7,6,54,Fe,no
+plant,Plant,Agropyron smithii,Pascopyrum smithii,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.4,NA,NA,FC_MI,no
+plant,Plant,Agrostis capillaris,Agrostis capillaris,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,3.5,4,28,Fe,no
+plant,Plant,Agrostis capillaris,Agrostis capillaris,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",synonym Agrostis tenuis,4.7,6,42,Fe,no
+plant,Plant,Agrostis stolonifera,Agrostis stolonifera,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/","""Agrostis stolonifera are allopolyploids at all three levels of diploidy (2n=14, 4n=28 and 6n=42)"" (Tomic, Z. (1994). Cytogenetic and taxonomic identification of the species of the genus Agrostis L. represented in the flora of Serbia [Yugoslavia]. Review of Research Work at the Faculty of Agriculture (Yugoslavia)). So, we do not know how representative is the c-value from database",3.5,NA,NA,Fe,no
+plant,Plant,Agrostis tenuis,Agrostis capillaris,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",synonym Agrostis tenuis,4.7,6,42,Fe,no
+plant,Plant,Ajuga reptans,Ajuga reptans,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Alliaria petiolata,Alliaria petiolata,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,1.9,4,36,Fe,no
+plant,Plant,Ambrosia artemisiifolia,Ambrosia artemisiifolia,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,1.18,4,36,FC_PI,no
+plant,Plant,Anthoxanthum odoratum,Anthoxanthum odoratum,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,5.9,4,20,Fe,no
+plant,Plant,Barbarea vulgaris,Barbarea vulgaris,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Betula pubescens,Betula pubescens,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.9,4,56,Fe & FC_PI,no
+plant,Plant,Bouteloua gracilis,Bouteloua gracilis,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,19.7,NA,NA,FC_MI,no
+plant,Plant,Brachypodium sylvaticum,Brachypodium sylvaticum,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.43,2,18,FC_PI,no
+plant,Plant,Brachypodium sylvaticum,Brachypodium sylvaticum,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.44,2,16,FC_PI,no
+plant,Plant,Brassica nigra,Brassica nigra,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.8,2,16,Fe,no
+plant,Plant,Brassica rapa,Brassica rapa,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.8,2,20,Fe,no
+plant,Plant,Bromus madritensis,Bromus madritensis,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,4.9,4,28,Fe,no
+plant,Plant,Bunias orientalis,Bunias orientalis,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,2.59,2,14,Fe,no
+plant,Plant,Butomus umbellatus,Butomus umbellatus,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,5.63,3,39,FC_PI,no
+plant,Plant,Cardamine hirsuta,Cardamine hirsuta,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.23,NA,16,FC_PI,no
+plant,Plant,Cardaria draba,Lepidium draba,"Roughani A, Miri SM, Hassandokht MR, Moradi P & Abdossi V. 2021. Cytogenetic and Micro-Morphological Studies on Several Accessions of Some Lepidium L. Species in Iran. Iranian Journal of Science and Technology, Transactions A: Science 45(2): 417-426.","L. draba can be 2n (16 chs.), 4n (32 chs.), 6n (48 chs.), 8n (64 chs.) and 10n (80 chs.)",0.555,NA,NA,FC_DAPI,no
+plant,Plant,Cardaria draba,Lepidium draba,"Roughani A, Miri SM, Hassandokht MR, Moradi P & Abdossi V. 2021. Cytogenetic and Micro-Morphological Studies on Several Accessions of Some Lepidium L. Species in Iran. Iranian Journal of Science and Technology, Transactions A: Science 45(2): 417-426.","L. draba can be 2n (16 chs.), 4n (32 chs.), 6n (48 chs.), 8n (64 chs.) and 10n (80 chs.)",0.585,NA,NA,FC_DAPI,no
+plant,Plant,Cardaria draba,Lepidium draba,"Roughani A, Miri SM, Hassandokht MR, Moradi P & Abdossi V. 2021. Cytogenetic and Micro-Morphological Studies on Several Accessions of Some Lepidium L. Species in Iran. Iranian Journal of Science and Technology, Transactions A: Science 45(2): 417-426.","L. draba can be 2n (16 chs.), 4n (32 chs.), 6n (48 chs.), 8n (64 chs.) and 10n (80 chs.)",0.6,NA,NA,FC_DAPI,no
+plant,Plant,Cardaria draba,Lepidium draba,"Roughani A, Miri SM, Hassandokht MR, Moradi P & Abdossi V. 2021. Cytogenetic and Micro-Morphological Studies on Several Accessions of Some Lepidium L. Species in Iran. Iranian Journal of Science and Technology, Transactions A: Science 45(2): 417-426.","L. draba can be 2n (16 chs.), 4n (32 chs.), 6n (48 chs.), 8n (64 chs.) and 10n (80 chs.)",0.62,NA,NA,FC_DAPI,no
+plant,Plant,Cardaria draba,Lepidium draba,"Roughani A, Miri SM, Hassandokht MR, Moradi P & Abdossi V. 2021. Cytogenetic and Micro-Morphological Studies on Several Accessions of Some Lepidium L. Species in Iran. Iranian Journal of Science and Technology, Transactions A: Science 45(2): 417-426.","L. draba can be 2n (16 chs.), 4n (32 chs.), 6n (48 chs.), 8n (64 chs.) and 10n (80 chs.)",0.695,NA,NA,FC_DAPI,no
+plant,Plant,Cardaria draba,Lepidium draba,"Roughani A, Miri SM, Hassandokht MR, Moradi P & Abdossi V. 2021. Cytogenetic and Micro-Morphological Studies on Several Accessions of Some Lepidium L. Species in Iran. Iranian Journal of Science and Technology, Transactions A: Science 45(2): 417-426.","L. draba can be 2n (16 chs.), 4n (32 chs.), 6n (48 chs.), 8n (64 chs.) and 10n (80 chs.)",1.075,NA,NA,FC_DAPI,no
+plant,Plant,Cardaria draba,Lepidium draba,"Roughani A, Miri SM, Hassandokht MR, Moradi P & Abdossi V. 2021. Cytogenetic and Micro-Morphological Studies on Several Accessions of Some Lepidium L. Species in Iran. Iranian Journal of Science and Technology, Transactions A: Science 45(2): 417-426.","L. draba can be 2n (16 chs.), 4n (32 chs.), 6n (48 chs.), 8n (64 chs.) and 10n (80 chs.)",1.075,NA,NA,FC_DAPI,no
+plant,Plant,Cardaria draba,Lepidium draba,"Roughani A, Miri SM, Hassandokht MR, Moradi P & Abdossi V. 2021. Cytogenetic and Micro-Morphological Studies on Several Accessions of Some Lepidium L. Species in Iran. Iranian Journal of Science and Technology, Transactions A: Science 45(2): 417-426.","L. draba can be 2n (16 chs.), 4n (32 chs.), 6n (48 chs.), 8n (64 chs.) and 10n (80 chs.)",1.145,NA,NA,FC_DAPI,no
+plant,Plant,Cardaria draba,Lepidium draba,"Roughani A, Miri SM, Hassandokht MR, Moradi P & Abdossi V. 2021. Cytogenetic and Micro-Morphological Studies on Several Accessions of Some Lepidium L. Species in Iran. Iranian Journal of Science and Technology, Transactions A: Science 45(2): 417-426.","L. draba can be 2n (16 chs.), 4n (32 chs.), 6n (48 chs.), 8n (64 chs.) and 10n (80 chs.)",1.145,NA,NA,FC_DAPI,no
+plant,Plant,Carduus nutans,Carduus nutans,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.93,NA,16,FC_PI,no
+plant,Plant,Centaurea calcitrapa,Centaurea calcitrapa,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.93,NA,20,FC_PI,no
+plant,Plant,Centaurea diffusa,Centaurea diffusa,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.9,2,16,CIA,no
+plant,Plant,Centaurea maculosa,Centaurea maculosa,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/","synonym Centaurea stoebe, subspecies Centaurea stoebe ssp. stoebe according He 2009, Oecologia 159: 803-815 ",0.88,2,18,CIA,no
+plant,Plant,Centaurea maculosa,Centaurea maculosa,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/","synonym Centaurea stoebe, subspecies Centaurea stoebe ssp. micranthos according He 2009, Oecologia 159: 803-815",1.57,4,36,CIA,no
+plant,Plant,Centaurea melitensis,Centaurea melitensis,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.94,NA,12,FC_PI,no
+plant,Plant,Centaurea solstitialis,Centaurea solstitialis,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.87,2,16,CIA,no
+plant,Plant,Centaurea sulphurea,Centaurea sulphurea,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Chelidonium majus,Chelidonium majus,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,1.13,2,12,FC_PI,no
+plant,Plant,Cichorium intybus,Cichorium intybus,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,1.33,NA,NA,FC_PI,no
+plant,Plant,Clidemia hirta,Miconia crenata,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Crepis sancta,Crepis sancta,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,2.09,2,10,Fe,no
+plant,Plant,Cynoglossum officinale,Cynoglossum officinale,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.91,NA,NA,FC_PI,no
+plant,Plant,Cytisus scoparius,Cytisus scoparius,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.9,4,48,Fe,no
+plant,Plant,Dactylis glomerata,Dactylis glomerata,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,3.3,2,14,Fe,no
+plant,Plant,Dactylis glomerata,Dactylis glomerata,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,4.4,4,28,Fe,no
+plant,Plant,Dactylis glomerata,Dactylis glomerata,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,4.4,6,42,FC_DAPI,no
+plant,Plant,Datura stramonium,Datura stramonium,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,2.09,2,NA,FC_PI,no
+plant,Plant,Deschampsia cespitosa,Deschampsia cespitosa,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",synonym Deschampsia caespitosa,5.22,2,26,FC_PI,no
+plant,Plant,Deschampsia cespitosa,Deschampsia cespitosa,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",synonym Deschampsia caespitosa,9,4,52,Fe,no
+plant,Plant,Digitalis purpurea,Digitalis purpurea,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.94,2,48,FC_PI,no
+plant,Plant,Echium vulgare,Echium vulgare,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.83,NA,16,FC_PI,no
+plant,Plant,Elymus multisetus,Elymus multisetus,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Eschscholzia californica,Eschscholzia californica,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,1.1,2,12,FC_PI,no
+plant,Plant,Festuca idahoensis,Festuca idahoensis,Wilson BL. 1999. Fescue taxonomy in the Pacific coast states. Oregon State University. Thesis,NA,4.475,4,28,FC_X,no
+plant,Plant,Festuca ovina,Festuca ovina,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,2.41,2,14,FC_PI,no
+plant,Plant,Festuca ovina,Festuca ovina,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",subspecies Festuca ovina ssp. hirsuta (Sheep fescue),4.8,4,28,Fe,no
+plant,Plant,Festuca rubra,Festuca rubra,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,6.84,6,42,FC_PI,no
+plant,Plant,Festuca rubra,Festuca rubra,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,8.83,8,56,FC_PI,no
+plant,Plant,Festuca rubra ssp. rubra,Festuca rubra subsp. rubra,Huff DR & Palazzo AJ. 1998. Fine fescue species determination by laser flow cytometry. Crop science 38(2): 445-450.,NA,7.135,8,56,FC_PI,no
+plant,Plant,Galium aparine,Galium aparine,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,1.45,NA,NA,FC_PI,no
+plant,Plant,Geranium carolinianum,Geranium carolinianum,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Glechoma hederacea,Glechoma hederacea,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.9,NA,NA,FC_PI,no
+plant,Plant,Hesperostipa comata,Hesperostipa comata,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Holcus lanatus,Holcus lanatus,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,1.92,2,14,FC_X,no
+plant,Plant,Hypericum perforatum,Hypericum perforatum,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.585,2,16,FC_PI,no
+plant,Plant,Hypericum perforatum,Hypericum perforatum,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.78,4,32,FC_PI,no
+plant,Plant,Hypochaeris radicata,Hypochaeris radicata,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,1.34,2,8,FC_EB,no
+plant,Plant,Impatiens glandulifera,Impatiens glandulifera,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,1.2,2,18,Fe,no
+plant,Plant,Jacobaea vulgaris,Jacobaea vulgaris,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",synonym Senecio jacobaea,2.3,4,40,Fe,no
+plant,Plant,Koeleria cristata,Koeleria pyramidata,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,11.45,10,70,FC_PI,no
+plant,Plant,Koeleria micrantha,Koeleria macrantha,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,2.43,2,14,FC_PI,no
+plant,Plant,Koeleria micrantha,Koeleria macrantha,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,4.66,4,28,FC_PI,no
+plant,Plant,Lactuca muralis,Cicerbita muralis,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Lactuca serriola,Lactuca serriola,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/","It is not the prime estimation, but it is the closer wid ploidy estimation",2.79,2,18,FC_DAPI,no
+plant,Plant,Lepidium draba,Lepidium draba,"Roughani A, Miri SM, Hassandokht MR, Moradi P & Abdossi V. 2021. Cytogenetic and Micro-Morphological Studies on Several Accessions of Some Lepidium L. Species in Iran. Iranian Journal of Science and Technology, Transactions A: Science 45(2): 417-426.","L. draba can be 2n (16 chs.), 4n (32 chs.), 6n (48 chs.), 8n (64 chs.) and 10n (80 chs.)",0.555,NA,NA,FC_DAPI,no
+plant,Plant,Lepidium draba,Lepidium draba,"Roughani A, Miri SM, Hassandokht MR, Moradi P & Abdossi V. 2021. Cytogenetic and Micro-Morphological Studies on Several Accessions of Some Lepidium L. Species in Iran. Iranian Journal of Science and Technology, Transactions A: Science 45(2): 417-426.","L. draba can be 2n (16 chs.), 4n (32 chs.), 6n (48 chs.), 8n (64 chs.) and 10n (80 chs.)",0.585,NA,NA,FC_DAPI,no
+plant,Plant,Lepidium draba,Lepidium draba,"Roughani A, Miri SM, Hassandokht MR, Moradi P & Abdossi V. 2021. Cytogenetic and Micro-Morphological Studies on Several Accessions of Some Lepidium L. Species in Iran. Iranian Journal of Science and Technology, Transactions A: Science 45(2): 417-426.","L. draba can be 2n (16 chs.), 4n (32 chs.), 6n (48 chs.), 8n (64 chs.) and 10n (80 chs.)",0.6,NA,NA,FC_DAPI,no
+plant,Plant,Lepidium draba,Lepidium draba,"Roughani A, Miri SM, Hassandokht MR, Moradi P & Abdossi V. 2021. Cytogenetic and Micro-Morphological Studies on Several Accessions of Some Lepidium L. Species in Iran. Iranian Journal of Science and Technology, Transactions A: Science 45(2): 417-426.","L. draba can be 2n (16 chs.), 4n (32 chs.), 6n (48 chs.), 8n (64 chs.) and 10n (80 chs.)",0.62,NA,NA,FC_DAPI,no
+plant,Plant,Lepidium draba,Lepidium draba,"Roughani A, Miri SM, Hassandokht MR, Moradi P & Abdossi V. 2021. Cytogenetic and Micro-Morphological Studies on Several Accessions of Some Lepidium L. Species in Iran. Iranian Journal of Science and Technology, Transactions A: Science 45(2): 417-426.","L. draba can be 2n (16 chs.), 4n (32 chs.), 6n (48 chs.), 8n (64 chs.) and 10n (80 chs.)",0.695,NA,NA,FC_DAPI,no
+plant,Plant,Lepidium draba,Lepidium draba,"Roughani A, Miri SM, Hassandokht MR, Moradi P & Abdossi V. 2021. Cytogenetic and Micro-Morphological Studies on Several Accessions of Some Lepidium L. Species in Iran. Iranian Journal of Science and Technology, Transactions A: Science 45(2): 417-426.","L. draba can be 2n (16 chs.), 4n (32 chs.), 6n (48 chs.), 8n (64 chs.) and 10n (80 chs.)",1.075,NA,NA,FC_DAPI,no
+plant,Plant,Lepidium draba,Lepidium draba,"Roughani A, Miri SM, Hassandokht MR, Moradi P & Abdossi V. 2021. Cytogenetic and Micro-Morphological Studies on Several Accessions of Some Lepidium L. Species in Iran. Iranian Journal of Science and Technology, Transactions A: Science 45(2): 417-426.","L. draba can be 2n (16 chs.), 4n (32 chs.), 6n (48 chs.), 8n (64 chs.) and 10n (80 chs.)",1.075,NA,NA,FC_DAPI,no
+plant,Plant,Lepidium draba,Lepidium draba,"Roughani A, Miri SM, Hassandokht MR, Moradi P & Abdossi V. 2021. Cytogenetic and Micro-Morphological Studies on Several Accessions of Some Lepidium L. Species in Iran. Iranian Journal of Science and Technology, Transactions A: Science 45(2): 417-426.","L. draba can be 2n (16 chs.), 4n (32 chs.), 6n (48 chs.), 8n (64 chs.) and 10n (80 chs.)",1.145,NA,NA,FC_DAPI,no
+plant,Plant,Lepidium draba,Lepidium draba,"Roughani A, Miri SM, Hassandokht MR, Moradi P & Abdossi V. 2021. Cytogenetic and Micro-Morphological Studies on Several Accessions of Some Lepidium L. Species in Iran. Iranian Journal of Science and Technology, Transactions A: Science 45(2): 417-426.","L. draba can be 2n (16 chs.), 4n (32 chs.), 6n (48 chs.), 8n (64 chs.) and 10n (80 chs.)",1.145,NA,NA,FC_DAPI,no
+plant,Plant,Lespedeza cuneata,Lespedeza cuneata,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Lolium multiflorum,Lolium multiflorum,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,2.63,2,14,FC_PI,no
+plant,Plant,Lolium multiflorum,Lolium multiflorum,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,5.5,4,28,FC_PI,no
+plant,Plant,Lolium perenne,Lolium perenne,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,2.68,2,14,FC_PI,no
+plant,Plant,Lolium perenne,Lolium perenne,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,5.6,4,28,FC_PI,no
+plant,Plant,Lolium rigidum,Lolium rigidum,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,2.75,2,14,FC_PI,no
+plant,Plant,Lotus purshianus,Acmispon americanus,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Lotus wrangelianus,Acmispon wrangelianus,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Lupinus bicolor,Lupinus bicolor,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Lythrum salicaria,Lythrum salicaria,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Malus domestica,Malus domestica,"Tatum TC, Stepanovic S, Biradar DP, Rayburn AL & Korban SS. 2005. Variation in nuclear DNA content in Malus species and cultivated apples. Genome 48(5): 924-930.",average of 14 cultivars,0.806,2,34,FC_PI,no
+plant,Plant,Malus domestica,Malus domestica,"Tatum TC, Stepanovic S, Biradar DP, Rayburn AL & Korban SS. 2005. Variation in nuclear DNA content in Malus species and cultivated apples. Genome 48(5): 924-930.",cultivar ‘Jonagold’ ,1.24,3,51,FC_PI,no
+plant,Plant,Medicago polymorpha,Medicago polymorpha,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.56,2,14,FC_EB,no
+plant,Plant,Melaleuca quinquenervia,Melaleuca quinquenervia,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.97,NA,NA,FC_PI,no
+plant,Plant,Melilotus officinalis,Melilotus officinalis,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,1.18,2,16,FC_PI,no
+plant,Plant,Mimulus guttatus,Erythranthe guttata,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.37,4,NA,FC_PI,no
+plant,Plant,Oenothera biennis,Oenothera biennis,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,1.15,2,14,FC_PI,no
+plant,Plant,Panax quinquefolius,Panax quinquefolius,"Obae SG & West TP. 2012. Nuclear DNA content and genome size of American ginseng. Journal of Medicinal Plants Research 6(32): 4719-4723. Hu SY, Rüdenberg L & Del Tredici P. 1980. Studies of American ginsengs. Rhodora 82(832): 627-636.",NA,5.03,4,48,FC_PI,no
+plant,Plant,Pastinaca sativa,Pastinaca sativa,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/","It is not the prime estimation, but it is the closer providing ploidy estimation",1.7,2,22,Fe,no
+plant,Plant,Phalaris arundinacea,Phalaris arundinacea,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,4.1,4,28,Fe,no
+plant,Plant,Phalaris arundinacea,Phalaris arundinacea,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,5.7,6,42,Fe,no
+plant,Plant,Phalaris arundinacea,Phalaris arundinacea,"Lavergne 2007, PNAS 104: 3883-3888",NA,4.63,4,42,FC_X,no
+plant,Plant,Phalaris arundinacea,Phalaris arundinacea,"Lavergne 2007, PNAS 104: 3883-3888",NA,6.75,6,64,FC_X,no
+plant,Plant,Phleum pratense,Phleum pratense,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,4.1,6,42,Fe,no
+plant,Plant,Piptochaetium napostaense,Piptochaetium napostaense,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Plantago lanceolata,Plantago lanceolata,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,1.45,2,12,FC_PI,no
+plant,Plant,Plantago major,Plantago major,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.71,2,12,FC_PI,no
+plant,Plant,Poa annua,Poa annua,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,2.9,4,28,Fe,no
+plant,Plant,Poa pratensis,Poa pratensis,"Dennhardt LA. 2016. Evidence of climate niche creation in the northern Great Plains: The history of invasion, population genetics, competitive effect, and long-term trends of Poa pratensis L (Doctoral dissertation, North Dakota State University).",average of 20 wild populations (range from 6.35 to 10.47),3.905,NA,NA,FC_PI,no
+plant,Plant,Poa sandbergii,Poa sandbergii,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Polygonum cespitosum,Persicaria posumbu,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Prunella vulgaris,Prunella vulgaris,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.65,2,28,FC_PI,no
+plant,Plant,Pseudoroegneria spicata,Pseudoroegneria spicata,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,4.6,2,14,FC_PI,no
+plant,Plant,Ranunculus bulbosus,Ranunculus bulbosus,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,5.6,2,16,Fe,no
+plant,Plant,Raphanus raphanistrum,Raphanus raphanistrum,"Gueritaine G, Sester M, Eber F, Chèvre AM & Darmency H. 2002. Fitness of backcross six of hybrids between transgenic oilseed rape (Brassica napus) and wild radish (Raphanus raphanistrum). Molecular Ecology 11(8): 1419-1426.",NA,0.53,2,18,FC_X,no
+plant,Plant,Raphanus raphanistrum X R. sativus,Raphanus raphanistrum X Raphanus sativus,"Gueritaine G, Sester M, Eber F, Chèvre AM & Darmency H. 2002. Fitness of backcross six of hybrids between transgenic oilseed rape (Brassica napus) and wild radish (Raphanus raphanistrum). Molecular Ecology 11(8): 1419-1426.","Raphanus (raphanistrum) sativus is a subspeices, so it is the hybrid between to subspecies of Raphanus raphanistrum",0.53,2,18,FC_X,no
+plant,Plant,Rhododendron ponticum,Rhododendron ponticum,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",subspecies Rhododendron ponticum var. brachycarpum,0.74,2,NA,FC_PI,no
+plant,Plant,Rorippa austriaca,Rorippa austriaca,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Rumex acetosa,Rumex acetosa,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",females,3.5,2,14,FC_PI,no
+plant,Plant,Rumex acetosa,Rumex acetosa,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",males,3.75,2,15,FC_PI,no
+plant,Plant,Rumex acetosella,Rumex acetosella,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,1.7,4,42,Fe,no
+plant,Plant,Rumex crispus,Rumex crispus,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,4.4,6,60,Fe,no
+plant,Plant,Sanguisorba officinalis,Sanguisorba officinalis,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Sapium sebiferum,Triadica sebifera,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Saussurea laniceps,Saussurea laniceps,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Saussurea medusa,Saussurea medusa,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Saussurea nigrescens,Saussurea nigrescens,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Scabiosa columbaria,Scabiosa columbaria,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.94,2,16,FC_PI,no
+plant,Plant,Schizachyrium scoparium,Schizachyrium scoparium,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Secale cereale,Secale cereale,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,8.8,2,14,Fe,no
+plant,Plant,Senecio inaequidens,Senecio inaequidens,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.58,2,20,FC_PI,no
+plant,Plant,Senecio inaequidens,Senecio inaequidens,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,1.08,4,40,FC_PI,no
+plant,Plant,Senecio jacobaea,Jacobaea vulgaris,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,2.3,4,40,Fe,no
+plant,Plant,Senecio pterophorus,Senecio pterophorus,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,1.1,2,20,Fe,no
+plant,Plant,Senecio squalidus,Senecio squalidus,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.9,2,20,Fe,no
+plant,Plant,Senecio sylvaticus,Senecio sylvaticus,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Senecio vulgaris,Senecio vulgaris,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,1.6,4,40,Fe,no
+plant,Plant,Silene latifolia,Silene latifolia,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,2.7,2,24,FC_PI,no
+plant,Plant,Solanum dulcamara,Solanum dulcamara,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/","It is not the prime estimation, but it is the closer providing ploidy estimation",1.1,2,24,Fe,no
+plant,Plant,Solidago altissima,Solidago canadensis var. scabra,"Verloove F, Zonneveld BJ & Semple JC. 2017. First evidence for the presence of invasive Solidago altissima (Asteraceae) in Europe. Willdenowia 47(1): 69-75.",synonym Solidago altissima var. altissima,2.805,6,54,FC_PI,no
+plant,Plant,Solidago canadensis,Solidago canadensis var. canadensis,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/. Verloove F, Zonneveld BJ & Semple JC. 2017. First evidence for the presence of invasive Solidago altissima (Asteraceae) in Europe. Willdenowia 47(1): 69-75.",NA,0.98,2,18,FC_PI,no
+plant,Plant,Solidago gigantea,Solidago gigantea,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/. Verloove F, Zonneveld BJ & Semple JC. 2017. First evidence for the presence of invasive Solidago altissima (Asteraceae) in Europe. Willdenowia 47(1): 69-75.",NA,1.82,4,36,FC_PI,no
+plant,Plant,Solidago gigantea,Solidago gigantea,"Verloove F, Zonneveld BJ & Semple JC. 2017. First evidence for the presence of invasive Solidago altissima (Asteraceae) in Europe. Willdenowia 47(1): 69-75.",,1.905,4,36,FC_PI,no
+plant,Plant,Spartina alterniflora,Sporobolus alterniflorus,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,2.18,6,62,FC_PI,no
+plant,Plant,Sporobolus airoides,Sporobolus airoides,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Stellaria graminea,Stellaria graminea,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.96,NA,26,FC_PI,no
+plant,Plant,Stipa occidentalis,Stipa occidentalis,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Triadica sebifera,Triadica sebifera,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Trifolium pratense,Trifolium pratense,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,0.43,2,14,FC_PI,no
+plant,Plant,Tristerix corymbosus,Tristerix corymbosus,NA,NA,NA,NA,NA,NA,NA
+plant,Plant,Tussilago farfara,Tussilago farfara,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,1.67,2,60,FC_PI,no
+plant,Plant,Ulex europaeus,Ulex europaeus,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,3.9,6,96,FC_DAPI,no
+plant,Plant,Veronica hederifolia,Veronica hederifolia,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,1.41,6,54,CIA,no
+plant,Plant,Zea mays,Zea mays,"Leitch IJ, Johnston E, Pellicer J, Hidalgo O, Bennett MD. 2019. Plant DNA C-values Database (Release 7.1). https://cvalues.science.kew.org/",NA,2.7,2,20,Fe,no
+vert,Amphibian,Bufo marinus,Rhinella marina,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.98,NA,NA,FC_X,no
+vert,Amphibian,Bufo marinus,Rhinella marina,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,4.01,NA,22,Fe,no
+vert,Amphibian,Bufo marinus,Rhinella marina,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,4.22,NA,NA,FC_X,no
+vert,Amphibian,Bufo marinus,Rhinella marina,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,4.64,NA,NA,Fe,no
+vert,Amphibian,Bufo marinus,Rhinella marina,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,4.88,NA,NA,FC_X,no
+vert,Amphibian,Bufo marinus,Rhinella marina,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,5.45,NA,NA,Fe,no
+vert,Amphibian,Bufo marinus,Rhinella marina,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,5.46,NA,NA,FC_X,no
+vert,Amphibian,Bufo marinus,Rhinella marina,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,5.65,NA,NA,Fe,no
+vert,Amphibian,Hydromantes strinatii,Speleomantes strinatii,NA,NA,NA,NA,NA,NA,NA
+vert,Amphibian,Rana arvalis,Rana arvalis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,4.65,NA,NA,Fe,no
+vert,Amphibian,Rana arvalis,Rana arvalis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,5.15,NA,NA,Fe,no
+vert,Amphibian,Rana arvalis,Rana arvalis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,5.23,NA,NA,Fe,no
+vert,Amphibian,Rana arvalis,Rana arvalis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,6.18,NA,NA,FC_X,no
+vert,Amphibian,Rana arvalis,Rana arvalis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,6.8,NA,NA,Fe,no
+vert,Amphibian,Rana arvalis,Rana arvalis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,7.14,NA,24,Fe,no
+vert,Amphibian,Rana arvalis,Rana arvalis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,7.17,NA,NA,Fe,no
+vert,Amphibian,Rana esculenta complex,Pelophylax lessonae/ridibunda,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,Rana esculenta,5.6,NA,26,Fe,no
+vert,Amphibian,Rana esculenta complex,Pelophylax lessonae/ridibunda,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,Rana esculenta,5.6,NA,NA,Fe,no
+vert,Amphibian,Rana esculenta complex,Pelophylax lessonae/ridibunda,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,Rana esculenta,6.29,NA,NA,Fe,no
+vert,Amphibian,Rana esculenta complex,Pelophylax lessonae/ridibunda,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,Rana esculenta,6.5,NA,NA,Fe,no
+vert,Amphibian,Rana esculenta complex,Pelophylax lessonae/ridibunda,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,Rana esculenta,6.7,NA,NA,Fe,no
+vert,Amphibian,Rana esculenta complex,Pelophylax lessonae/ridibunda,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,Rana esculenta,6.75,NA,NA,Fe,no
+vert,Amphibian,Rana esculenta complex,Pelophylax lessonae/ridibunda,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,Rana esculenta,7.04,NA,NA,FC_X,no
+vert,Amphibian,Rana esculenta complex,Pelophylax lessonae/ridibunda,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,Rana esculenta,7.48,NA,NA,FC_X,no
+vert,Amphibian,Rana esculenta complex,Pelophylax lessonae/ridibunda,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,Rana esculenta,8.51,NA,NA,SCF,no
+vert,Amphibian,Rana esculenta complex,Pelophylax lessonae/ridibunda,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,Rana lessonae,6.3,NA,NA,Fe,no
+vert,Amphibian,Rana esculenta complex,Pelophylax lessonae/ridibunda,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,Rana lessonae,6.43,NA,26,FC_X,no
+vert,Amphibian,Rana esculenta complex,Pelophylax lessonae/ridibunda,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,Rana lessonae,7.08,NA,NA,FC_X,no
+vert,Amphibian,Rana esculenta complex,Pelophylax lessonae/ridibunda,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,Rana ridibunda,5.51,NA,26,FC_X,no
+vert,Amphibian,Rana esculenta complex,Pelophylax lessonae/ridibunda,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,Rana ridibunda,6.9,NA,NA,Fe,no
+vert,Amphibian,Rana esculenta complex,Pelophylax lessonae/ridibunda,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,Rana ridibunda,7.66,NA,NA,FC_X,no
+vert,Amphibian,Rana esculenta complex,Pelophylax lessonae/ridibunda,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,Rana ridibunda,8.01,NA,NA,FC_X,no
+vert,Amphibian,Rana esculenta complex,Pelophylax lessonae/ridibunda,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,Rana ridibunda,8.1,NA,NA,Fe,no
+vert,Amphibian,Rana sylvatica,Lithobates sylvaticus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,5.49,NA,NA,FC_X,no
+vert,Amphibian,Rana sylvatica,Lithobates sylvaticus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,5.83,NA,26,Fe,no
+vert,Amphibian,Rana sylvatica,Lithobates sylvaticus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,5.83,NA,NA,Fe,no
+vert,Amphibian,Rana sylvatica,Lithobates sylvaticus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,6.01,NA,NA,FC_X,no
+vert,Amphibian,Rana sylvatica,Lithobates sylvaticus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,6.5,NA,NA,Fe,no
+vert,Bird,Acrocephalus scirpaceus,Acrocephalus scirpaceus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Acrocephalus baeticatus,1.33,NA,NA,FIA,yes
+vert,Bird,Aegithalos caudatus,Aegithalos caudatus,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Agelaius phoeniceus,Agelaius phoeniceus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.3,NA,NA,FIA,no
+vert,Bird,Agelaius phoeniceus,Agelaius phoeniceus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.33,NA,80,Fe,no
+vert,Bird,Alauda arvensis,Alauda arvensis,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Anser caerulescens caerulescens,Anser caerulescens caerulescens,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Anser anser domesticus,1.44,NA,NA,FIA,yes
+vert,Bird,Anser caerulescens caerulescens,Anser caerulescens caerulescens,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Anser rossii,1.38,NA,82,FC_X,yes
+vert,Bird,Anthus campestris,Anthus campestris,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Anthus cinnamomeus,1.29,NA,NA,FIA,yes
+vert,Bird,Anthus campestris,Anthus campestris,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Anthus crenatus,1.18,NA,NA,FIA,yes
+vert,Bird,Anthus campestris,Anthus campestris,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Anthus similis,1.26,NA,NA,FIA,yes
+vert,Bird,Anthus pratensis,Anthus pratensis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Anthus cinnamomeus,1.29,NA,NA,FIA,yes
+vert,Bird,Anthus pratensis,Anthus pratensis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Anthus crenatus,1.18,NA,NA,FIA,yes
+vert,Bird,Anthus pratensis,Anthus pratensis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Anthus similis,1.26,NA,NA,FIA,yes
+vert,Bird,Anthus trivialis,Anthus trivialis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Anthus cinnamomeus,1.29,NA,NA,FIA,yes
+vert,Bird,Anthus trivialis,Anthus trivialis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Anthus crenatus,1.18,NA,NA,FIA,yes
+vert,Bird,Anthus trivialis,Anthus trivialis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Anthus similis,1.26,NA,NA,FIA,yes
+vert,Bird,Aphelocoma ultramarina,Aphelocoma ultramarina,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Aphelocoma coerulescens coerulescens,1.56,NA,NA,FC_X,yes
+vert,Bird,Apus apus,Apus apus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Apus affinis,1.38,NA,NA,FIA,yes
+vert,Bird,Apus apus,Apus apus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Apus caffer,1.18,NA,NA,FIA,yes
+vert,Bird,Apus melba,Tachymarptis melba,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Archilochus colubris,Archilochus colubris,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Archilochus alexandri,0.91,NA,NA,FIA,yes
+vert,Bird,Archilochus colubris,Archilochus colubris,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Archilochus alexandri,1.18,NA,NA,FIA,yes
+vert,Bird,Bombycilla cedrorum,Bombycilla cedrorum,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.24,NA,NA,FIA,no
+vert,Bird,Branta leucopsis,Branta leucopsis,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Cardinalis cardinalis,Cardinalis cardinalis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.37,NA,NA,FIA,no
+vert,Bird,Carduelis cannabina,Linaria cannabina,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Carduelis carduelis,Carduelis carduelis,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Carduelis chloris,Chloris chloris,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Carduelis spinus,Spinus spinus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Spinus tristis (synonym Carduelis tristis),1.32,NA,NA,FIA,yes
+vert,Bird,Carpodacus mexicanus,Haemorhous mexicanus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Carpodacus purpureus,1.4,NA,NA,FIA,yes
+vert,Bird,Carpodacus purpureus,Haemorhous purpureus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.4,NA,NA,FIA,no
+vert,Bird,Catharus fuscescens,Catharus fuscescens,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.34,NA,NA,FIA,no
+vert,Bird,Catharus guttatus,Catharus guttatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.4,NA,NA,FIA,no
+vert,Bird,Catharus minimus,Catharus minimus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.31,NA,NA,FIA,no
+vert,Bird,Coccothraustes coccothraustes,Coccothraustes coccothraustes,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Coccothraustes vespertinus,Hesperiphona vespertina,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Coccyzus americanus,Coccyzus americanus,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Coccyzus erythropthalmus,Coccyzus erythropthalmus,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Contopus virens,Contopus virens,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.15,NA,NA,FIA,no
+vert,Bird,Coturnix coturnix,Coturnix coturnix,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.35,NA,78,FC_X,no
+vert,Bird,Cyanocitta cristata,Cyanocitta cristata,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.32,NA,NA,Fe,no
+vert,Bird,Cyanocitta cristata,Cyanocitta cristata,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.32,NA,NA,FIA,no
+vert,Bird,Cyanocitta cristata,Cyanocitta cristata,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.43,NA,78-80,FC_X,no
+vert,Bird,Cygnus olor,Cygnus olor,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.48,NA,80,FC_X,no
+vert,Bird,Delichon urbica,Delichon urbicum,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Dumetella carolinensis,Dumetella carolinensis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.32,NA,NA,FIA,no
+vert,Bird,Emberiza cia,Emberiza cia,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Emberiza flaviventris,1.38,NA,NA,FIA,yes
+vert,Bird,Emberiza cia,Emberiza cia,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Emberiza tahapisi,1.25,NA,NA,FIA,yes
+vert,Bird,Emberiza hortulana,Emberiza hortulana,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Emberiza flaviventris,1.38,NA,NA,FIA,yes
+vert,Bird,Emberiza hortulana,Emberiza hortulana,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Emberiza tahapisi,1.25,NA,NA,FIA,yes
+vert,Bird,Emberiza schoeniclus,Emberiza schoeniclus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Emberiza flaviventris,1.38,NA,NA,FIA,yes
+vert,Bird,Emberiza schoeniclus,Emberiza schoeniclus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Emberiza tahapisi,1.25,NA,NA,FIA,yes
+vert,Bird,Empidonax alnorum/traillii,Empidonax alnorum/traillii,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,Data for E. alnorum,1.22,NA,NA,FIA,no
+vert,Bird,Empidonax minimus,Empidonax minimus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.2,NA,NA,FIA,no
+vert,Bird,Empidonax virescens,Empidonax virescens,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Empidonax alnorum,1.22,NA,NA,FIA,yes
+vert,Bird,Empidonax virescens,Empidonax virescens,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Empidonax minimus,1.2,NA,NA,FIA,yes
+vert,Bird,Empidonax virescens,Empidonax virescens,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Empidonax sp.,1.17,NA,NA,FIA,yes
+vert,Bird,Erithacus rubecula,Erithacus rubecula,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.82,NA,NA,SCF,no
+vert,Bird,Ficedula albicollis,Ficedula albicollis,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Ficedula hypoleuca,Ficedula hypoleuca,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Fringilla coelebs,Fringilla coelebs,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.12,NA,80,SCF,no
+vert,Bird,Fringilla montifringilla,Fringilla montifringilla,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Fringilla coelebs,1.12,NA,80,SCF,yes
+vert,Bird,Garrulus glandarius,Garrulus glandarius,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.24,NA,80,Fe,no
+vert,Bird,Geospiza fortis,Geospiza fortis,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Geospiza scandens,Geospiza scandens,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Geothlypis formosa,Geothlypis formosa,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Geothlypis trichas,1.44,NA,NA,FIA,yes
+vert,Bird,Geothlypis trichas,Geothlypis trichas,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.44,NA,NA,FIA,no
+vert,Bird,Hippolais icterina,Hippolais icterina,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.29,NA,NA,FIA,no
+vert,Bird,Hirundo rustica,Hirundo rustica,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.31,NA,NA,FIA,no
+vert,Bird,Hylocichla mustelina,Hylocichla mustelina,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.38,NA,NA,FC_X,no
+vert,Bird,Hylocichla mustelina,Hylocichla mustelina,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.38,NA,NA,FIA,no
+vert,Bird,Hylocichla mustelina,Hylocichla mustelina,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.5,NA,NA,FC_X,no
+vert,Bird,Icteria virens,Icteria virens,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Icterus galbula,Icterus galbula,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.23,NA,NA,FIA,no
+vert,Bird,Junco hyemalis,Junco hyemalis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.3,NA,NA,FIA,no
+vert,Bird,Jynx torquilla,Jynx torquilla,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Jynx ruficollis,1.31,NA,NA,FIA,yes
+vert,Bird,Lanius collurio,Lanius collurio,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.21,NA,NA,FIA,no
+vert,Bird,Larus audouinii,Ichthyaetus audouinii,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Locustella fluviatilis,Locustella fluviatilis,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Locustella naevia,Locustella naevia,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Loxia curvirostra,Loxia curvirostra,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Lullula arborea,Lullula arborea,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Luscinia megarhynchos,Luscinia megarhynchos,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Melanerpes carolinus,Melanerpes carolinus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Melanerpes cruentalus,1.63,NA,NA,FIA,yes
+vert,Bird,Melanerpes carolinus,Melanerpes carolinus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Melanerpes formicivorus,1.69,NA,NA,FIA,yes
+vert,Bird,Melospiza georgiana,Melospiza georgiana,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.49,NA,NA,FIA,no
+vert,Bird,Melospiza lincolnii,Melospiza lincolnii,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.23,NA,NA,FIA,no
+vert,Bird,Melospiza melodia,Melospiza melodia,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.43,NA,NA,FIA,no
+vert,Bird,Mniotilta varia,Mniotilta varia,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.29,NA,NA,FIA,no
+vert,Bird,Molothrus ater,Molothrus ater,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.41,NA,NA,FIA,no
+vert,Bird,Motacilla alba,Motacilla alba,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Motacilla capensis,1.05,NA,NA,FIA,yes
+vert,Bird,Motacilla cinerea,Motacilla cinerea,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Motacilla capensis,1.05,NA,NA,FIA,yes
+vert,Bird,Motacilla flava,Motacilla flava,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Motacilla capensis,1.05,NA,NA,FIA,yes
+vert,Bird,Muscicapa striata,Muscicapa striata,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.46,NA,NA,FIA,no
+vert,Bird,Myiarchus crinitus,Myiarchus crinitus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.32,NA,NA,FIA,no
+vert,Bird,Oenanthe oenanthe,Oenanthe oenanthe,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Oenanthe monticola,1.24,NA,NA,FIA,yes
+vert,Bird,Oreothlypis celata,Leiothlypis celata,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Oreothlypis ruficapilla,Leiothlypis ruficapilla,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Parkesia motacilla,Parkesia motacilla,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Parkesia noveboracensis,Parkesia noveboracensis,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Parus ater,Periparus ater,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.58,NA,80,SCF,no
+vert,Bird,Parus caeruleus,Cyanistes caeruleus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.47,NA,NA,SCF,no
+vert,Bird,Parus major,Parus major,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.51,NA,80,SCF,no
+vert,Bird,Passer domesticus,Passer domesticus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.25,NA,NA,Fe,no
+vert,Bird,Passer domesticus,Passer domesticus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.26,NA,NA,SCF,no
+vert,Bird,Passer domesticus,Passer domesticus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.51,NA,76,FC_X,no
+vert,Bird,Passer domesticus,Passer domesticus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.57,NA,NA,FC_X,no
+vert,Bird,Passer montanus,Passer montanus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.09,NA,78,SCF,no
+vert,Bird,Passerella iliaca,Passerella iliaca,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Passerina cyanea,Passerina cyanea,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.3,NA,NA,FIA,no
+vert,Bird,Pheucticus ludovicianus,Pheucticus ludovicianus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.33,NA,NA,FIA,no
+vert,Bird,Phoenicurus ochruros,Phoenicurus ochruros,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Phoenicurus phoenicurus,Phoenicurus phoenicurus,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Phylloscopus collybita,Phylloscopus collybita,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.47,NA,NA,SCF,no
+vert,Bird,Phylloscopus sibilatrix,Phylloscopus sibilatrix,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Phylloscopus collybita,1.47,NA,NA,SCF,yes
+vert,Bird,Phylloscopus sibilatrix,Phylloscopus sibilatrix,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Phylloscopus trochilus,1.32,NA,NA,FIA,yes
+vert,Bird,Phylloscopus trochilus,Phylloscopus trochilus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.32,NA,NA,FIA,no
+vert,Bird,Picoides pubescens,Dryobates pubescens,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Dryobates nuttallii (synonym Picoides nuttallii),1.51,NA,NA,FIA,yes
+vert,Bird,Picoides villosus,Picoides villosus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.38,NA,NA,FIA,no
+vert,Bird,Pipilo erythrophthalmus,Pipilo erythrophthalmus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.37,NA,NA,FIA,no
+vert,Bird,Pipilo erythrophthalmus,Pipilo erythrophthalmus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.32,NA,NA,Fe,no
+vert,Bird,Pipilo erythrophthalmus,Pipilo erythrophthalmus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.55,NA,84,FC_X,no
+vert,Bird,Piranga olivacea,Piranga olivacea,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.27,NA,NA,FIA,no
+vert,Bird,Pitangus sulphuratus,Pitangus sulphuratus,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Poecile atricapillus,Poecile atricapillus,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Polioptila caerulea,Polioptila caerulea,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.38,NA,NA,Fe,no
+vert,Bird,Prunella modularis,Prunella modularis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.47,NA,NA,SCF,no
+vert,Bird,Pyrrhula pyrrhula,Pyrrhula pyrrhula,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Quiscalus quiscula,Quiscalus quiscula,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.32,NA,NA,FIA,no
+vert,Bird,Regulus calendula,Regulus calendula,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.21,NA,NA,FIA,no
+vert,Bird,Regulus calendula,Regulus calendula,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.31,NA,NA,FC_X,no
+vert,Bird,Regulus calendula,Regulus calendula,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.35,NA,NA,Fe,no
+vert,Bird,Regulus ignicapillus,Regulus ignicapilla,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Regulus calendula,1.21,NA,NA,FIA,yes
+vert,Bird,Regulus ignicapillus,Regulus ignicapilla,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Regulus calendula,1.31,NA,NA,FC_X,yes
+vert,Bird,Regulus ignicapillus,Regulus ignicapilla,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Regulus calendula,1.35,NA,NA,Fe,yes
+vert,Bird,Regulus regulus,Regulus regulus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Regulus calendula,1.21,NA,NA,FIA,yes
+vert,Bird,Regulus regulus,Regulus regulus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Regulus calendula,1.31,NA,NA,FC_X,yes
+vert,Bird,Regulus regulus,Regulus regulus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Regulus calendula,1.35,NA,NA,Fe,yes
+vert,Bird,Riparia riparia,Riparia riparia,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.45,NA,NA,FIA,no
+vert,Bird,Saxicola rubetra,Saxicola rubetra,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Sayornis phoebe,Sayornis phoebe,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.45,NA,NA,Fe,no
+vert,Bird,Seiurus aurocapilla,Seiurus aurocapilla,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.36,NA,NA,FIA,no
+vert,Bird,Serinus citrinella,Serinus citrinella,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Serinus atrogularis,1.5,NA,NA,FIA,yes
+vert,Bird,Serinus citrinella,Serinus citrinella,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Serinus canaria,1.48,NA,80,Fe,yes
+vert,Bird,Serinus citrinella,Serinus citrinella,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Serinus canaria,1.54,NA,NA,SCF,yes
+vert,Bird,Serinus citrinella,Serinus citrinella,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Serinus canaria,1.58,NA,NA,Fe,yes
+vert,Bird,Serinus citrinella,Serinus citrinella,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Serinus canaria,1.62,NA,NA,Fe,yes
+vert,Bird,Serinus citrinella,Serinus citrinella,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Serinus flaviventris,1.23,NA,NA,FIA,yes
+vert,Bird,Serinus serinus,Serinus serinus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Serinus atrogularis,1.5,NA,NA,FIA,yes
+vert,Bird,Serinus serinus,Serinus serinus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Serinus canaria,1.48,NA,80,Fe,yes
+vert,Bird,Serinus serinus,Serinus serinus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Serinus canaria,1.54,NA,NA,SCF,yes
+vert,Bird,Serinus serinus,Serinus serinus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Serinus canaria,1.58,NA,NA,Fe,yes
+vert,Bird,Serinus serinus,Serinus serinus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Serinus canaria,1.62,NA,NA,Fe,yes
+vert,Bird,Serinus serinus,Serinus serinus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Serinus flaviventris,1.23,NA,NA,FIA,yes
+vert,Bird,Setophaga americana,Setophaga americana,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Setophaga ruticilla,1.31,NA,NA,FIA,yes
+vert,Bird,Setophaga americana,Setophaga americana,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Setophaga pitiayumi,1.43,NA,NA,FIA,yes
+vert,Bird,Setophaga caerulescens,Setophaga caerulescens,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Setophaga ruticilla,1.31,NA,NA,FIA,yes
+vert,Bird,Setophaga caerulescens,Setophaga caerulescens,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Setophaga pitiayumi,1.43,NA,NA,FIA,yes
+vert,Bird,Setophaga castanea,Setophaga castanea,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Setophaga ruticilla,1.31,NA,NA,FIA,yes
+vert,Bird,Setophaga castanea,Setophaga castanea,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Setophaga pitiayumi,1.43,NA,NA,FIA,yes
+vert,Bird,Setophaga citrina,Setophaga citrina,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Setophaga ruticilla,1.31,NA,NA,FIA,yes
+vert,Bird,Setophaga citrina,Setophaga citrina,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Setophaga pitiayumi,1.43,NA,NA,FIA,yes
+vert,Bird,Setophaga coronata,Setophaga coronata,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Setophaga ruticilla,1.31,NA,NA,FIA,yes
+vert,Bird,Setophaga coronata,Setophaga coronata,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Setophaga pitiayumi,1.43,NA,NA,FIA,yes
+vert,Bird,Setophaga fusca,Setophaga fusca,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Setophaga ruticilla,1.31,NA,NA,FIA,yes
+vert,Bird,Setophaga fusca,Setophaga fusca,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Setophaga pitiayumi,1.43,NA,NA,FIA,yes
+vert,Bird,Setophaga petechia,Setophaga petechia,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Setophaga ruticilla,1.31,NA,NA,FIA,yes
+vert,Bird,Setophaga petechia,Setophaga petechia,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Setophaga pitiayumi,1.43,NA,NA,FIA,yes
+vert,Bird,Setophaga ruticilla,Setophaga ruticilla,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.31,NA,NA,FIA,no
+vert,Bird,Setophaga striata,Setophaga striata,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Setophaga ruticilla,1.31,NA,NA,FIA,yes
+vert,Bird,Setophaga striata,Setophaga striata,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Setophaga pitiayumi,1.43,NA,NA,FIA,yes
+vert,Bird,Setophaga tigrina,Setophaga tigrina,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Setophaga ruticilla,1.31,NA,NA,FIA,yes
+vert,Bird,Setophaga tigrina,Setophaga tigrina,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Setophaga pitiayumi,1.43,NA,NA,FIA,yes
+vert,Bird,Setophaga virens,Setophaga virens,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Setophaga ruticilla,1.31,NA,NA,FIA,yes
+vert,Bird,Setophaga virens,Setophaga virens,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Setophaga pitiayumi,1.43,NA,NA,FIA,yes
+vert,Bird,Sialia sialis,Sialia sialis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.28,NA,NA,FIA,no
+vert,Bird,Sialia sialis,Sialia sialis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.45,NA,NA,Fe,no
+vert,Bird,Sitta carolinensis,Sitta carolinensis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Sitta canadensis,1.22,NA,NA,FIA,yes
+vert,Bird,Sitta europaea,Sitta europaea,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Sitta canadensis,1.22,NA,NA,FIA,yes
+vert,Bird,Spinus pinus,Spinus pinus,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Spinus tristis,Spinus tristis,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Spizella passerina,Spizella passerina,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.29,NA,NA,FIA,no
+vert,Bird,Spizella pusilla,Spizella pusilla,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.28,NA,NA,FIA,no
+vert,Bird,Stelgidopteryx serripennis,Stelgidopteryx serripennis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.36,NA,NA,FIA,no
+vert,Bird,Sterna paradisaea,Sterna paradisaea,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Sturnia philippensis,Sturnus philippensis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Sturnus vulgaris,1.3,NA,80,Fe,yes
+vert,Bird,Sturnia philippensis,Sturnus philippensis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Sturnus vulgaris,1.32,NA,NA,FIA,yes
+vert,Bird,Sturnus vulgaris,Sturnus vulgaris,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.3,NA,80,Fe,no
+vert,Bird,Sturnus vulgaris,Sturnus vulgaris,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.32,NA,NA,FIA,no
+vert,Bird,Sylvia atricapilla,Sylvia atricapilla,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.09,NA,NA,SCF,no
+vert,Bird,Sylvia borin,Sylvia borin,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Sylvia atricapilla,1.09,NA,NA,SCF,yes
+vert,Bird,Sylvia borin,Sylvia borin,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Sylvia communis,1.3,NA,NA,FIA,yes
+vert,Bird,Sylvia communis,Sylvia communis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.3,NA,NA,FIA,no
+vert,Bird,Tachycineta bicolor,Tachycineta bicolor,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.35,NA,NA,FIA,no
+vert,Bird,Telespyza cantans,Telespiza cantans,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Thryothorus ludovicianus,Thryothorus ludovicianus,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Toxostoma rufum,Toxostoma rufum,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.23,NA,NA,FIA,no
+vert,Bird,Toxostoma rufum,Toxostoma rufum,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.27,NA,78,Fe,no
+vert,Bird,Troglodytes aedon,Troglodytes aedon,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.27,NA,NA,FIA,no
+vert,Bird,Troglodytes aedon,Troglodytes aedon,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.34,NA,NA,FIA,no
+vert,Bird,Troglodytes troglodytes,Troglodytes troglodytes,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.3,NA,NA,SCF,no
+vert,Bird,Troglodytes troglodytes,Troglodytes troglodytes,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.32,NA,NA,FIA,no
+vert,Bird,Turdus iliacus,Turdus iliacus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus chiguanco,1.44,NA,,FIA,yes
+vert,Bird,Turdus iliacus,Turdus iliacus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus leucops,1.32,NA,,FIA,yes
+vert,Bird,Turdus iliacus,Turdus iliacus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus merula,1.25,NA,80,Fe,yes
+vert,Bird,Turdus iliacus,Turdus iliacus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus merula,1.51,NA,,SCF,yes
+vert,Bird,Turdus iliacus,Turdus iliacus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus migratorius,1.37,NA,80,FIA,yes
+vert,Bird,Turdus iliacus,Turdus iliacus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus migratorius,1.39,NA,,FIA,yes
+vert,Bird,Turdus iliacus,Turdus iliacus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus nigriceps,1.35,NA,,FIA,yes
+vert,Bird,Turdus iliacus,Turdus iliacus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus philomelos,1.09,NA,80,Fe,yes
+vert,Bird,Turdus iliacus,Turdus iliacus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus philomelos,1.93,NA,,SCF,yes
+vert,Bird,Turdus iliacus,Turdus iliacus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus reevei,1.37,NA,,FIA,yes
+vert,Bird,Turdus iliacus,Turdus iliacus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus smithi,1.62,NA,,FIA,yes
+vert,Bird,Turdus merula,Turdus merula,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.25,NA,80,Fe,no
+vert,Bird,Turdus merula,Turdus merula,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.51,NA,NA,SCF,no
+vert,Bird,Turdus migratorius,Turdus migratorius,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.37,NA,80,FIA,no
+vert,Bird,Turdus migratorius,Turdus migratorius,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.39,NA,NA,FIA,no
+vert,Bird,Turdus philomelos,Turdus philomelos,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.09,NA,80,Fe,no
+vert,Bird,Turdus philomelos,Turdus philomelos,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.93,NA,NA,SCF,no
+vert,Bird,Turdus torquatus alpestris,Turdus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus chiguanco,1.44,NA,,FIA,yes
+vert,Bird,Turdus torquatus alpestris,Turdus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus leucops,1.32,NA,,FIA,yes
+vert,Bird,Turdus torquatus alpestris,Turdus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus merula,1.25,NA,80,Fe,yes
+vert,Bird,Turdus torquatus alpestris,Turdus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus merula,1.51,NA,,SCF,yes
+vert,Bird,Turdus torquatus alpestris,Turdus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus migratorius,1.37,NA,80,FIA,yes
+vert,Bird,Turdus torquatus alpestris,Turdus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus migratorius,1.39,NA,,FIA,yes
+vert,Bird,Turdus torquatus alpestris,Turdus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus nigriceps,1.35,NA,,FIA,yes
+vert,Bird,Turdus torquatus alpestris,Turdus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus philomelos,1.09,NA,80,Fe,yes
+vert,Bird,Turdus torquatus alpestris,Turdus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus philomelos,1.93,NA,,SCF,yes
+vert,Bird,Turdus torquatus alpestris,Turdus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus reevei,1.37,NA,,FIA,yes
+vert,Bird,Turdus torquatus alpestris,Turdus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus smithi,1.62,NA,,FIA,yes
+vert,Bird,Turdus torquatus torquatus,Turdus torquatus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus chiguanco,1.44,NA,,FIA,yes
+vert,Bird,Turdus torquatus torquatus,Turdus torquatus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus leucops,1.32,NA,,FIA,yes
+vert,Bird,Turdus torquatus torquatus,Turdus torquatus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus merula,1.25,NA,80,Fe,yes
+vert,Bird,Turdus torquatus torquatus,Turdus torquatus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus merula,1.51,NA,,SCF,yes
+vert,Bird,Turdus torquatus torquatus,Turdus torquatus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus migratorius,1.37,NA,80,FIA,yes
+vert,Bird,Turdus torquatus torquatus,Turdus torquatus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus migratorius,1.39,NA,,FIA,yes
+vert,Bird,Turdus torquatus torquatus,Turdus torquatus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus nigriceps,1.35,NA,,FIA,yes
+vert,Bird,Turdus torquatus torquatus,Turdus torquatus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus philomelos,1.09,NA,80,Fe,yes
+vert,Bird,Turdus torquatus torquatus,Turdus torquatus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus philomelos,1.93,NA,,SCF,yes
+vert,Bird,Turdus torquatus torquatus,Turdus torquatus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus reevei,1.37,NA,,FIA,yes
+vert,Bird,Turdus torquatus torquatus,Turdus torquatus torquatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus smithi,1.62,NA,,FIA,yes
+vert,Bird,Turdus viscivorus,Turdus viscivorus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus chiguanco,1.44,NA,,FIA,yes
+vert,Bird,Turdus viscivorus,Turdus viscivorus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus leucops,1.32,NA,,FIA,yes
+vert,Bird,Turdus viscivorus,Turdus viscivorus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus merula,1.25,NA,80,Fe,yes
+vert,Bird,Turdus viscivorus,Turdus viscivorus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus merula,1.51,NA,,SCF,yes
+vert,Bird,Turdus viscivorus,Turdus viscivorus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus migratorius,1.37,NA,80,FIA,yes
+vert,Bird,Turdus viscivorus,Turdus viscivorus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus migratorius,1.39,NA,,FIA,yes
+vert,Bird,Turdus viscivorus,Turdus viscivorus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus nigriceps,1.35,NA,,FIA,yes
+vert,Bird,Turdus viscivorus,Turdus viscivorus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus philomelos,1.09,NA,80,Fe,yes
+vert,Bird,Turdus viscivorus,Turdus viscivorus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus philomelos,1.93,NA,,SCF,yes
+vert,Bird,Turdus viscivorus,Turdus viscivorus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus reevei,1.37,NA,,FIA,yes
+vert,Bird,Turdus viscivorus,Turdus viscivorus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Turdus smithi,1.62,NA,,FIA,yes
+vert,Bird,Vermivora chrysoptera,Vermivora chrysoptera,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Vermivora peregrina,1.41,NA,NA,FIA,yes
+vert,Bird,Vermivora chrysoptera,Vermivora chrysoptera,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Vermivora pinus,1.28,NA,NA,FIA,yes
+vert,Bird,Vermivora chrysoptera,Vermivora chrysoptera,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Vermivora ruficapilla,1.36,NA,NA,FIA,yes
+vert,Bird,Vermivora cyanoptera,Vermivora cyanoptera,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Vermivora peregrina,1.41,NA,NA,FIA,yes
+vert,Bird,Vermivora cyanoptera,Vermivora cyanoptera,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Vermivora pinus,1.28,NA,NA,FIA,yes
+vert,Bird,Vermivora cyanoptera,Vermivora cyanoptera,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Vermivora ruficapilla,1.36,NA,NA,FIA,yes
+vert,Bird,Vestiaria coccinea,Vestiaria coccinea,NA,NA,NA,NA,NA,NA,NA
+vert,Bird,Vireo griseus,Vireo griseus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Vireo gilvus,1.31,NA,NA,FIA,yes
+vert,Bird,Vireo griseus,Vireo griseus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Vireo olivaceus,1.24,NA,NA,FIA,yes
+vert,Bird,Vireo griseus,Vireo griseus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Vireo olivaceus,1.25,NA,NA,FIA,yes
+vert,Bird,Vireo griseus,Vireo griseus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Vireo philadelphicus,1.35,NA,NA,FIA,yes
+vert,Bird,Vireo olivaceus,Vireo olivaceus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.24,NA,NA,FIA,no
+vert,Bird,Vireo olivaceus,Vireo olivaceus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.25,NA,NA,FIA,no
+vert,Bird,Vireo philadelphicus,Vireo philadelphicus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.35,NA,NA,FIA,no
+vert,Bird,Vireo solitarius,Vireo solitarius,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Vireo gilvus,1.31,NA,NA,FIA,yes
+vert,Bird,Vireo solitarius,Vireo solitarius,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Vireo olivaceus,1.24,NA,NA,FIA,yes
+vert,Bird,Vireo solitarius,Vireo solitarius,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Vireo olivaceus,1.25,NA,NA,FIA,yes
+vert,Bird,Vireo solitarius,Vireo solitarius,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Vireo philadelphicus,1.35,NA,NA,FIA,yes
+vert,Bird,Zenaida macroura,Zenaida macroura,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Zenaida auriculata,1.41,NA,NA,FIA,yes
+vert,Bird,Zonotrichia albicollis,Zonotrichia albicollis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.33,NA,NA,FIA,no
+vert,Bird,Zonotrichia albicollis,Zonotrichia albicollis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.37,NA,82,FC_X,no
+vert,Bird,Zonotrichia leucophrys,Zonotrichia leucophrys,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.32,NA,NA,FIA,no
+vert,Bird,Zosterops lateralis,Zosterops lateralis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,congener Zosterops pallidus,1.35,NA,NA,FIA,yes
+vert,Fish,Alosa pseudoharengus,Alosa pseudoharengus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.4,NA,48,BFA,no
+vert,Fish,Argentina silas,Argentina silus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.85,NA,44,Fe,no
+vert,Fish,Brosme brosme,Brosme brosme,NA,NA,NA,NA,NA,NA,NA
+vert,Fish,Clupea harengus,Clupea harengus,NA,NA,NA,NA,NA,NA,NA
+vert,Fish,Cnidoglanis macrocephalus,Cnidoglanis macrocephalus,NA,NA,NA,NA,NA,NA,NA
+vert,Fish,Coregonus albellus,Coregonus albellus,NA,NA,NA,NA,NA,NA,NA
+vert,Fish,Coregonus clupeaformis,Coregonus clupeaformis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.44,NA,NA,FIA,no
+vert,Fish,Coregonus clupeaformis,Coregonus clupeaformis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.44,NA,80,Fe,no
+vert,Fish,Coregonus fatioi,Coregonus fatioi,NA,NA,NA,NA,NA,NA,NA
+vert,Fish,Coregonus lavaretus,Coregonus lavaretus,"Bargetzi JP. 1958. Application de méthodes d'analyse biochimique à une étude taxonomique: les corégones du lac de Neuchâtel. Experientia 14(12): 445-447. Lockwood SF, Seavey BT, Dillinger Jr RE & Bickham JW. 1991. Variation in DNA content among age classes of broad whitefish (Coregonus nasus) from the Sagavanirktok River delta. Canadian Journal of Zoology 69(5): 1335-1338.",Coregonus lavaretus widegrini,2.9,NA,76-80,Fe,no
+vert,Fish,Cynotilapia afra,Cynotilapia afra,NA,NA,NA,NA,NA,NA,NA
+vert,Fish,Cyprinella venusta,Cyprinella venusta,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.21,NA,50,Fe,no
+vert,Fish,Cyprinodon tularosa,Cyprinodon tularosa,NA,NA,NA,NA,NA,NA,NA
+vert,Fish,Esox lucius,Esox lucius,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.85,NA,NA,BCA,no
+vert,Fish,Esox lucius,Esox lucius,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.97,NA,NA,BCA,no
+vert,Fish,Esox lucius,Esox lucius,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.98,NA,NA,BCA,no
+vert,Fish,Esox lucius,Esox lucius,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.13,NA,NA,FIA,no
+vert,Fish,Esox lucius,Esox lucius,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.15,NA,50,FC_X,no
+vert,Fish,Esox lucius,Esox lucius,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.36,NA,NA,Fe,no
+vert,Fish,Gadus morhua,Gadus morhua,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.93,NA,NA,FIA,no
+vert,Fish,Gambusia affinis,Gambusia affinis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.75,NA,NA,FC_X,no
+vert,Fish,Gambusia affinis,Gambusia affinis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.78,NA,NA,Fe,no
+vert,Fish,Gambusia affinis,Gambusia affinis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.91,NA,NA,FC_X,no
+vert,Fish,Gambusia affinis,Gambusia affinis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.94,NA,48,FC_X,no
+vert,Fish,Gambusia holbrooki,Gambusia holbrooki,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.86,NA,48,BFA,no
+vert,Fish,Gasterosteus aculeatus,Gasterosteus aculeatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.58,NA,NA,FC_X,no
+vert,Fish,Gasterosteus aculeatus,Gasterosteus aculeatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.7,NA,42,BFA,no
+vert,Fish,Glyptocephalus cynoglossus,Glyptocephalus cynoglossus,NA,NA,NA,NA,NA,NA,NA
+vert,Fish,Gymnogobius isaza,Gymnogobius isaza,NA,NA,NA,NA,NA,NA,NA
+vert,Fish,Hippoglossoides platessoides,Hippoglossoides platessoides,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.84,NA,NA,FIA,no
+vert,Fish,Hippoglossus hippoglossus,Hippoglossus hippoglossus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.73,NA,NA,FIA,no
+vert,Fish,Labidesthes sicculus,Labidesthes sicculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.67,NA,NA,FIA,no
+vert,Fish,Lepomis gibbosus,Lepomis gibbosus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.95,NA,NA,FIA,no
+vert,Fish,Lepomis macrochirus,Lepomis macrochirus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.62,NA,NA,SCF,no
+vert,Fish,Lepomis macrochirus,Lepomis macrochirus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.73,NA,NA,FIA,no
+vert,Fish,Lepomis macrochirus,Lepomis macrochirus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.94,NA,48,Fe,no
+vert,Fish,Lepomis macrochirus,Lepomis macrochirus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.96,NA,NA,FC_X,no
+vert,Fish,Lepomis macrochirus,Lepomis macrochirus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.98,NA,NA,FC_X,no
+vert,Fish,Lepomis macrochirus,Lepomis macrochirus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1,NA,NA,FC_X,no
+vert,Fish,Lepomis macrochirus,Lepomis macrochirus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.01,NA,NA,FC_X,no
+vert,Fish,Melanogrammus aeglefinus,Melanogrammus aeglefinus,NA,NA,NA,NA,NA,NA,NA
+vert,Fish,Merlangius merlangus,Merlangius merlangus,NA,NA,NA,NA,NA,NA,NA
+vert,Fish,Merluccius bilinears,Merluccius bilinearis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.84,NA,NA,FIA,no
+vert,Fish,Merluccius bilinears,Merluccius bilinearis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.93,NA,NA,BFA,no
+vert,Fish,Metriaclima zebra,Maylandia zebra,NA,NA,NA,NA,NA,NA,NA
+vert,Fish,Notropis atherinoides,Notropis atherinoides,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.19,NA,50,Fe,no
+vert,Fish,Oncorhynchus gorbuscha,Oncorhynchus gorbuscha,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.23,NA,NA,Fe,no
+vert,Fish,Oncorhynchus gorbuscha,Oncorhynchus gorbuscha,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.57,NA,52,FC_X,no
+vert,Fish,Oncorhynchus keta,Oncorhynchus keta,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.49,NA,NA,FIA,no
+vert,Fish,Oncorhynchus keta,Oncorhynchus keta,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.64,NA,74,FC_X,no
+vert,Fish,Oncorhynchus keta,Oncorhynchus keta,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.76,NA,NA,Fe,no
+vert,Fish,Oncorhynchus kisutch,Oncorhynchus kisutch,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.6,NA,NA,FC_X,no
+vert,Fish,Oncorhynchus kisutch,Oncorhynchus kisutch,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3,NA,60,BFA,no
+vert,Fish,Oncorhynchus kisutch,Oncorhynchus kisutch,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.05,NA,NA,Fe,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.87,NA,NA,BCA,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.4,NA,NA,FIA,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.44,NA,NA,FC_X,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.44,NA,NA,FC_X,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.45,NA,NA,FIA,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.59,NA,NA,FC_X,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.6,NA,60,Fe,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.69,NA,NA,FC_X,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.7,NA,NA,FC_X,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.75,NA,NA,FC_X,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.75,NA,NA,FC_X,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.75,NA,NA,FC_X,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.76,NA,NA,FC_X,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.78,NA,NA,FC_X,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.78,NA,NA,BCA,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.8,NA,NA,Fe,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.81,NA,NA,UVM,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.83,NA,NA,BCA,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.84,NA,NA,FC_X,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.85,NA,NA,FC_X,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.89,NA,NA,Fe,no
+vert,Fish,Oncorhynchus mykiss,Oncorhynchus mykiss,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.92,NA,NA,Fe,no
+vert,Fish,Oncorhynchus nerka,Oncorhynchus nerka,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.77,NA,NA,FC_X,no
+vert,Fish,Oncorhynchus nerka,Oncorhynchus nerka,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.96,NA,NA,FC_X,no
+vert,Fish,Oncorhynchus nerka,Oncorhynchus nerka,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.04,NA,56,Fe,no
+vert,Fish,Oncorhynchus tshawytscha,Oncorhynchus tshawytscha,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.45,NA,NA,FIA,no
+vert,Fish,Oncorhynchus tshawytscha,Oncorhynchus tshawytscha,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.58,NA,NA,FC_X,no
+vert,Fish,Oncorhynchus tshawytscha,Oncorhynchus tshawytscha,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.3,NA,68,BFA,no
+vert,Fish,Pleuronectes platessa,Pleuronectes platessa,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,synonym Pleuronectes platessus,0.39,NA,48,SCF,no
+vert,Fish,Poecilia reticulata,Poecilia reticulata,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,0.77,NA,NA,Fe,no
+vert,Fish,Poecilia reticulata,Poecilia reticulata,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1,NA,46,FC_X,no
+vert,Fish,Salmo salar,Salmo salar,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.98,NA,NA,FC_X,no
+vert,Fish,Salmo salar,Salmo salar,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.1,NA,60,FC_X,no
+vert,Fish,Salmo salar,Salmo salar,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.27,NA,NA,FIA,no
+vert,Fish,Salmo trutta,Salmo trutta,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,subspecies Salmo trutta fario,2.9,NA,NA,Fe,no
+vert,Fish,Salmo trutta,Salmo trutta,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,subspecies Salmo trutta fario,3.15,NA,80,FC_X,no
+vert,Fish,Salmo trutta,Salmo trutta,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,subspecies Salmo trutta macrostigma,3.19,NA,80,FC_X,no
+vert,Fish,Salmo trutta,Salmo trutta,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,subspecies Salmo trutta trutta,2.59,NA,NA,FC_X,no
+vert,Fish,Salmo trutta,Salmo trutta,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,subspecies Salmo trutta trutta,2.73,NA,NA,Fe,no
+vert,Fish,Salmo trutta,Salmo trutta,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,subspecies Salmo trutta trutta,2.95,NA,NA,FC_X,no
+vert,Fish,Salmo trutta,Salmo trutta,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,subspecies Salmo trutta trutta,2.95,NA,NA,FC_X,no
+vert,Fish,Salmo trutta,Salmo trutta,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,subspecies Salmo trutta trutta,3.07,NA,80,FC_X,no
+vert,Fish,Salvelinus alpinus,Salvelinus alpinus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.92,NA,NA,FIA,no
+vert,Fish,Salvelinus alpinus,Salvelinus alpinus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.36,NA,NA,FIA,no
+vert,Fish,Salvelinus alpinus,Salvelinus alpinus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.7,NA,80,Fe,no
+vert,Fish,Sander lucioperca,Sander lucioperca,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,1.14,NA,48,FC_X,no
+vert,Fish,Sardinops ocellatus,Sardinops ocellatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,synonym Sardinops sagax,1.01,NA,NA,FIA,no
+vert,Fish,Sardinops ocellatus,Sardinops ocellatus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,synonym Sardinops sagax,1.35,NA,48,Fe,no
+vert,Fish,Thymallus thymallus,Thymallus thymallus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.15,NA,102,FC_X,no
+vert,Fish,Trisopterus esmarkii,Trisopterus esmarkii,NA,NA,NA,NA,NA,NA,NA
+vert,Lizard,Anolis sagrei,Anolis sagrei,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,synonym Anolis sagraei,1.89,NA,28,SCF,no
+vert,Lizard,Podarcis sicula,Podarcis siculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,subspecies Podarcis sicula campestris,1.3,NA,NA,SCF,no
+vert,Lizard,Podarcis sicula,Podarcis siculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,subspecies Podarcis sicula campestris,2.21,NA,38,Fe,no
+vert,Lizard,Podarcis sicula,Podarcis siculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,subspecies Podarcis sicula sicula,2.2,NA,38,Fe,no
+vert,Lizard,Podarcis sicula,Podarcis siculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,subspecies Podarcis sicula sicula,2.2,NA,NA,Fe,no
+vert,Mammal,Abrothrix longipilis apta,Abrothrix longipilis,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Abrothrix olivaceus brachiotis,Abrothrix olivaceus brachiotis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,species (synonym) Akodon olivaceus,3.05,NA,NA,Fe,no
+vert,Mammal,Abrothrix olivaceus pencanus,Abrothrix olivaceus pencanus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,species (synonym) Akodon olivaceus,3.05,NA,NA,Fe,no
+vert,Mammal,Abrothrix sanborni,Abrothrix sanborni,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Akodon xanthorhinus xanthorhinus,Abrothrix xanthorhinus xanthorhinus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,species Akodon xanthorhinus,3.16,NA,52,Fe,no
+vert,Mammal,Alopex lagopus,Vulpes lagopus,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Canis latrans,Canis latrans,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.82,NA,78,FC_X,no
+vert,Mammal,Canis lupus,Canis lupus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.81,NA,78,FC_X,no
+vert,Mammal,Cervus elaphus,Cervus elaphus,"Ferrari MR, Giuliano SM, Spirito SE, Rivolta MA & Fernández HA. 2008. Estudios preliminares del núcleo espermático de ciervo colorado (Cervus elaphus). InVet 10(2): 73-80.",NA,3.88,NA,NA,Fe,no
+vert,Mammal,Cervus elaphus hispanicus,Cervus elaphus hispanicus,"Ferrari MR, Giuliano SM, Spirito SE, Rivolta MA & Fernández HA. 2008. Estudios preliminares del núcleo espermático de ciervo colorado (Cervus elaphus). InVet 10(2): 73-80.",species Cervus elaphus,3.88,NA,NA,Fe,no
+vert,Mammal,Cervus elaphus scoticus,Cervus elaphus scoticus,"Ferrari MR, Giuliano SM, Spirito SE, Rivolta MA & Fernández HA. 2008. Estudios preliminares del núcleo espermático de ciervo colorado (Cervus elaphus). InVet 10(2): 73-80.",species Cervus elaphus,3.88,NA,NA,Fe,no
+vert,Mammal,Chaetodipus fallax fallax,Chaetodipus fallax fallax,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Chionomys nivalis,Chionomys nivalis,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Dipodomys merriami merriami,Dipodomys merriami merriami,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.52,NA,52,GCD,no
+vert,Mammal,Gulo gulo,Gulo gulo,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Herpestes javanicus,Urva javanica,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Lemmus trimucronatus nigripes,Lemmus trimucronatus,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Lophuromys flavopunctatus zena,Lophuromys flavopunctatus,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Lynx canadensis,Lynx canadensis,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Macropus giganteus,Macropus giganteus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.91,NA,NA,Fe,no
+vert,Mammal,Macropus giganteus,Macropus giganteus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,4.21,NA,16,Fe,no
+vert,Mammal,Macropus rufogriseus,Notamacropus rufogriseus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,synonym Macropus rufogrigeus,5.58,NA,NA,FC_X,no
+vert,Mammal,Martes americana,Martes americana,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Martes foina,Martes foina,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Martes martes,Martes martes,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Martes melampus,Martes melampus,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Meles meles,Meles meles,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Microtus mexicanus mexicanus,Microtus mexicanus,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Microtus pennsylvanicus pennsylvanicus,Microtus pennsylvanicus pennsylvanicus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,species Microtus pennsylvanicus,2.63,NA,46,Fe,no
+vert,Mammal,Mus musculus,Mus musculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.45,NA,NA,SCF,no
+vert,Mammal,Mus musculus,Mus musculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.92,NA,NA,BCA,no
+vert,Mammal,Mus musculus,Mus musculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.93,NA,NA,Fe,no
+vert,Mammal,Mus musculus,Mus musculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.02,NA,NA,FC_X,no
+vert,Mammal,Mus musculus,Mus musculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.25,NA,40,FC_X,no
+vert,Mammal,Mus musculus,Mus musculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.26,NA,NA,FC_X,no
+vert,Mammal,Mus musculus,Mus musculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.26,NA,NA,Fe,no
+vert,Mammal,Mus musculus,Mus musculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.28,NA,NA,FIA,no
+vert,Mammal,Mus musculus,Mus musculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.31,NA,NA,Fe,no
+vert,Mammal,Mus musculus,Mus musculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.35,NA,NA,FC_X,no
+vert,Mammal,Mus musculus,Mus musculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.38,NA,NA,Fe,no
+vert,Mammal,Mus musculus,Mus musculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.45,NA,NA,Fe,no
+vert,Mammal,Mus musculus,Mus musculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.52,NA,NA,Fe,no
+vert,Mammal,Mus musculus,Mus musculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,4.03,NA,NA,Fe,no
+vert,Mammal,Mustela erminea,Mustela erminea,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Mustela frenata,Mustela frenata,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Mustela nivalis,Mustela nivalis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.08,NA,42,SCF,no
+vert,Mammal,Mustela putorius,Mustela putorius,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.81,NA,NA,FC_X,no
+vert,Mammal,Mustela vison,Neogale vison,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Nyctereutes procyonoides,Nyctereutes procyonoides,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,subspecies Nyctereutes procyonoides viverrinus,3.27,NA,54,FC_X,no
+vert,Mammal,Nyctereutes procyonoides,Nyctereutes procyonoides,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,subspecies Nyctereutes procyonoides viverrinus,3.19,NA,38,FC_X,no
+vert,Mammal,Oligoryzomys longicaudatus philippii,Oligoryzomys longicaudatus philippii,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Oryctolagus cuniculus,Oryctolagus cuniculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.5,NA,NA,UVM,no
+vert,Mammal,Oryctolagus cuniculus,Oryctolagus cuniculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.88,NA,NA,UVM,no
+vert,Mammal,Oryctolagus cuniculus,Oryctolagus cuniculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.09,NA,NA,BCA,no
+vert,Mammal,Oryctolagus cuniculus,Oryctolagus cuniculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.26,NA,44,FC_X,no
+vert,Mammal,Oryctolagus cuniculus,Oryctolagus cuniculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.42,NA,NA,FC_X,no
+vert,Mammal,Oryctolagus cuniculus,Oryctolagus cuniculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.52,NA,NA,Fe,no
+vert,Mammal,Oryctolagus cuniculus,Oryctolagus cuniculus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.57,NA,NA,SCF,no
+vert,Mammal,Ovis aries,Ovis aries,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.34,NA,NA,UVM,no
+vert,Mammal,Ovis aries,Ovis aries,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.57,NA,NA,BCA,no
+vert,Mammal,Ovis aries,Ovis aries,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.3,NA,54,Fe,no
+vert,Mammal,Ovis aries,Ovis aries,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.33,NA,NA,BCA,no
+vert,Mammal,Ovis aries,Ovis aries,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.5,NA,NA,BCA,no
+vert,Mammal,Ovis canadensis,Ovis canadensis,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Peromyscus leucopus,Peromyscus leucopus,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Peromyscus leucopus noveboracensis,Peromyscus leucopus noveboracensis,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Peromyscus maniculatus anacapae,Peromyscus maniculatus anacapae,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,species Peromyscus maniculatus,4.36,NA,48,SCF,no
+vert,Mammal,Peromyscus maniculatus blandus,Peromyscus maniculatus blandus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,species Peromyscus maniculatus,4.36,NA,48,SCF,no
+vert,Mammal,Peromyscus maniculatus elusus,Peromyscus maniculatus elusus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,species Peromyscus maniculatus,4.36,NA,48,SCF,no
+vert,Mammal,Peromyscus maniculatus nubiterrae,Peromyscus maniculatus nubiterrae,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,species Peromyscus maniculatus,4.36,NA,48,SCF,no
+vert,Mammal,Peromyscus maniculatus santacruzae,Peromyscus maniculatus santacruzae,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,species Peromyscus maniculatus,4.36,NA,48,SCF,no
+vert,Mammal,Phyllotis xanthopygus chilensis,Phyllotis xanthopygus chilensis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,different subspecies Phyllotis xanthopygus rupestris,4.17,NA,38,SCF,no
+vert,Mammal,Phyllotis xanthopygus chilensis,Phyllotis xanthopygus chilensis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,different subspecies Phyllotis xanthopygus vaccarum,3.9,NA,38,SCF,no
+vert,Mammal,Phyllotis xanthopygus chilensis,Phyllotis xanthopygus chilensis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,different subspecies Phyllotis xanthopygus xanthopygus,3.54,NA,38,SCF,no
+vert,Mammal,Praomys jacksoni,Praomys jacksoni,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Procyon lotor,Procyon lotor,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.85,NA,38,FC_X,no
+vert,Mammal,Rangifer t. tarandus,Rangifer tarandus tarandus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,species Rangifer tarandus,3.41,NA,NA,FC_X,no
+vert,Mammal,Rattus rattus,Rattus rattus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.63,NA,NA,Fe,no
+vert,Mammal,Rattus rattus,Rattus rattus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.03,NA,42,FC_X,no
+vert,Mammal,Rattus rattus,Rattus rattus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.03,NA,NA,UVM,no
+vert,Mammal,Rattus rattus,Rattus rattus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.14,NA,NA,Fe,no
+vert,Mammal,Rattus rattus,Rattus rattus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.48,NA,NA,Fe,no
+vert,Mammal,Rattus tanezumi mindanensis,Rattus tanezumi,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Sciurus carolinensis pennsylvanicus,Neosciurus carolinensis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,species Sciurus carolinensis,4.46,NA,NA,FIA,no
+vert,Mammal,Sciurus carolinensis pennsylvanicus,Neosciurus carolinensis,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,species Sciurus carolinensis,5.18,NA,40,Fe,no
+vert,Mammal,Spilogale gracilis,Spilogale gracilis,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Tachyoryctes splendens naivashae,Tachyoryctes splendens,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Tamias striatus griseus,Tamias striatus,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Tamiasciurus hudsonicus,Tamiasciurus hudsonicus,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Thomomys umbrinus umbrinus,Thomomys umbrinus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,different subspecies Thomomys umbrinus intermedius,4.38,NA,78,FC_X,no
+vert,Mammal,Urocyon cinereoargenteus,Urocyon cinereoargenteus,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,3.07,NA,66,FC_X,no
+vert,Mammal,Urocyon littoralis,Urocyon littoralis,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Ursus arctos,Ursus arctos,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.75,NA,74,FC_X,no
+vert,Mammal,Viverra tangalunga,Viverra tangalunga,NA,NA,NA,NA,NA,NA,NA
+vert,Mammal,Vulpes vulpes,Vulpes vulpes,Gregory TR. 2021. Animal Genome Size Database. http://www.genomesize.com.,NA,2.85,NA,34,FC_X,no
+vert,Snake,Pseudechis porphyriacus,Pseudechis porphyriacus,NA,NA,NA,NA,NA,NA,NA
+vert,Turtle,Malaclemys terrapin,Malaclemys terrapin,NA,NA,NA,NA,NA,NA,NA
