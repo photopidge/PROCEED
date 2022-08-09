@@ -1,0 +1,435 @@
+species,common,taxa,phylum,class,order,sp_ncbi,sp_given.ncbi
+Abrothrix longipilis apta,altiplano mice,Mammal,Chordata,Mammalia,Rodentia,Abrothrix longipilis,not_eq
+Abrothrix olivaceus brachiotis,altiplano mice,Mammal,Chordata,Mammalia,Rodentia,Abrothrix olivaceus brachiotis,eq
+Abrothrix olivaceus pencanus,Manso grass mouse,Mammal,Chordata,Mammalia,Rodentia,Abrothrix olivaceus pencanus,eq
+Abrothrix sanborni,Sanborn's Grass Mouse,Mammal,Chordata,Mammalia,Rodentia,Abrothrix sanborni,eq
+Achillea millefolium,,Plant,Streptophyta,Magnoliopsida,Asterales,Achillea millefolium,eq
+Acrocephalus scirpaceus,Eurasian Reed Warbler,Bird,Chordata,Aves,Passeriformes,Acrocephalus scirpaceus,eq
+Aedes albopictus,Asian tiger mosquito,Arthropod,Arthropoda,Insecta,Diptera,Aedes albopictus,eq
+Aegithalos caudatus,Long-tailed Tit,Bird,Chordata,Aves,Passeriformes,Aegithalos caudatus,eq
+Agelaius phoeniceus,Red-winged Blackbird,Bird,Chordata,Aves,Passeriformes,Agelaius phoeniceus,eq
+Agropyron smithii,Cynomys ludovicianus,Plant,Streptophyta,Magnoliopsida,Poales,Pascopyrum smithii,not_eq
+Agrostis capillaris,common bent,Plant,Streptophyta,Magnoliopsida,Poales,Agrostis capillaris,eq
+Agrostis stolonifera,creeping bent,Plant,Streptophyta,Magnoliopsida,Poales,Agrostis stolonifera,eq
+Agrostis tenuis,,Plant,Streptophyta,Magnoliopsida,Poales,Agrostis capillaris,not_eq
+Ajuga reptans,,Plant,Streptophyta,Magnoliopsida,Lamiales,Ajuga reptans,eq
+Akodon xanthorhinus xanthorhinus,grass mouse,Mammal,Chordata,Mammalia,Rodentia,Abrothrix xanthorhinus xanthorhinus,not_eq
+Alauda arvensis,Eurasian skylark,Bird,Chordata,Aves,Passeriformes,Alauda arvensis,eq
+Alliaria petiolata,garlic mustard,Plant,Streptophyta,Magnoliopsida,Brassicales,Alliaria petiolata,eq
+Alopex lagopus,arctic fox,Mammal,Chordata,Mammalia,Carnivora,Vulpes lagopus,not_eq
+Alosa pseudoharengus,alewife,Fish,Chordata,Actinopteri,Clupeiformes,Alosa pseudoharengus,eq
+Ambrosia artemisiifolia,,Plant,Streptophyta,Magnoliopsida,Asterales,Ambrosia artemisiifolia,eq
+Anolis sagrei,brown anole,Reptile,Chordata,Lepidosauria,Squamata,Anolis sagrei,eq
+Anser caerulescens caerulescens,Snow Goose,Bird,Chordata,Aves,Anseriformes,Anser caerulescens caerulescens,eq
+Anthoxanthum odoratum,sweet vernalgrass,Plant,Streptophyta,Magnoliopsida,Poales,Anthoxanthum odoratum,eq
+Anthus campestris,Tawny Pipit,Bird,Chordata,Aves,Passeriformes,Anthus campestris,eq
+Anthus pratensis,Meadow Pipit,Bird,Chordata,Aves,Passeriformes,Anthus pratensis,eq
+Anthus trivialis,Tree Pipit,Bird,Chordata,Aves,Passeriformes,Anthus trivialis,eq
+Aphelocoma ultramarina,Mexican jay,Bird,Chordata,Aves,Passeriformes,Aphelocoma ultramarina,eq
+Apus apus,Common Swift,Bird,Chordata,Aves,Apodiformes,Apus apus,eq
+Apus melba,Alpine Swift,Bird,Chordata,Aves,Apodiformes,Tachymarptis melba,not_eq
+Archilochus colubris,Ruby-Throated Hummingbird,Bird,Chordata,Aves,Apodiformes,Archilochus colubris,eq
+Argentina silas,greater argentine,Fish,Chordata,Actinopteri,Argentiniformes,Argentina silus,not_eq
+Asellus aquaticus,freshwater isopod,Arthropod,Arthropoda,Malacostraca,Isopoda,Asellus aquaticus,eq
+Barbarea vulgaris,,Plant,Streptophyta,Magnoliopsida,Brassicales,Barbarea vulgaris,eq
+Betula pubescens,mountain birch tree,Plant,Streptophyta,Magnoliopsida,Fagales,Betula pubescens,eq
+Bombycilla cedrorum,Cedar Waxwing,Bird,Chordata,Aves,Passeriformes,Bombycilla cedrorum,eq
+Bouteloua gracilis,,Plant,Streptophyta,Magnoliopsida,Poales,Bouteloua gracilis,eq
+Brachypodium sylvaticum,,Plant,Streptophyta,Magnoliopsida,Poales,Brachypodium sylvaticum,eq
+Branta leucopsis,Barnacle Goose,Bird,Chordata,Aves,Anseriformes,Branta leucopsis,eq
+Brassica nigra,,Plant,Streptophyta,Magnoliopsida,Brassicales,Brassica nigra,eq
+Brassica rapa,field mustard,Plant,Streptophyta,Magnoliopsida,Brassicales,Brassica rapa,eq
+Bromus madritensis,,Plant,Streptophyta,Magnoliopsida,Poales,Bromus madritensis,eq
+Brosme brosme,cusk,Fish,Chordata,Actinopteri,Gadiformes,Brosme brosme,eq
+Bufo marinus,cane toad,Amphibian,Chordata,Amphibia,Anura,Rhinella marina,not_eq
+Bunias orientalis,,Plant,Streptophyta,Magnoliopsida,Brassicales,Bunias orientalis,eq
+Butomus umbellatus,,Plant,Streptophyta,Magnoliopsida,Alismatales,Butomus umbellatus,eq
+Calliphora vicina,,Arthropod,Arthropoda,Insecta,Diptera,Calliphora vicina,eq
+Canis latrans,,Mammal,Chordata,Mammalia,Carnivora,Canis latrans,eq
+Canis lupus,,Mammal,Chordata,Mammalia,Carnivora,Canis lupus,eq
+Cardamine hirsuta,,Plant,Streptophyta,Magnoliopsida,Brassicales,Cardamine hirsuta,eq
+Cardaria draba,,Plant,Streptophyta,Magnoliopsida,Brassicales,Lepidium draba,not_eq
+Cardinalis cardinalis,,Bird,Chordata,Aves,Passeriformes,Cardinalis cardinalis,eq
+Carduelis cannabina,,Bird,Chordata,Aves,Passeriformes,Linaria cannabina,not_eq
+Carduelis carduelis,,Bird,Chordata,Aves,Passeriformes,Carduelis carduelis,eq
+Carduelis chloris,,Bird,Chordata,Aves,Passeriformes,Chloris chloris,not_eq
+Carduelis spinus,,Bird,Chordata,Aves,Passeriformes,Spinus spinus,not_eq
+Carduus nutans,,Plant,Streptophyta,Magnoliopsida,Asterales,Carduus nutans,eq
+Carpodacus mexicanus,,Bird,Chordata,Aves,Passeriformes,Haemorhous mexicanus,not_eq
+Carpodacus purpureus,,Bird,Chordata,Aves,Passeriformes,Haemorhous purpureus,not_eq
+Catharus fuscescens,,Bird,Chordata,Aves,Passeriformes,Catharus fuscescens,eq
+Catharus guttatus,,Bird,Chordata,Aves,Passeriformes,Catharus guttatus,eq
+Catharus minimus,,Bird,Chordata,Aves,Passeriformes,Catharus minimus,eq
+Centaurea calcitrapa,,Plant,Streptophyta,Magnoliopsida,Asterales,Centaurea calcitrapa,eq
+Centaurea diffusa,,Plant,Streptophyta,Magnoliopsida,Asterales,Centaurea diffusa,eq
+Centaurea maculosa,,Plant,Streptophyta,Magnoliopsida,Asterales,Centaurea maculosa,eq
+Centaurea melitensis,,Plant,Streptophyta,Magnoliopsida,Asterales,Centaurea melitensis,eq
+Centaurea solstitialis,,Plant,Streptophyta,Magnoliopsida,Asterales,Centaurea solstitialis,eq
+Centaurea sulphurea,,Plant,Streptophyta,Magnoliopsida,Asterales,Centaurea sulphurea,eq
+Cervus elaphus,,Mammal,Chordata,Mammalia,Artiodactyla,Cervus elaphus,eq
+Cervus elaphus hispanicus,,Mammal,Chordata,Mammalia,Artiodactyla,Cervus elaphus hispanicus,eq
+Cervus elaphus scoticus,,Mammal,Chordata,Mammalia,Artiodactyla,Cervus elaphus scoticus,eq
+Chaetodipus fallax fallax,,Mammal,Chordata,Mammalia,Rodentia,Chaetodipus fallax fallax,eq
+Chelidonium majus,,Plant,Streptophyta,Magnoliopsida,Ranunculales,Chelidonium majus,eq
+Chionomys nivalis,,Mammal,Chordata,Mammalia,Rodentia,Chionomys nivalis,eq
+Cichorium intybus,,Plant,Streptophyta,Magnoliopsida,Asterales,Cichorium intybus,eq
+Clidemia hirta,,Plant,Streptophyta,Magnoliopsida,Myrtales,Miconia crenata,not_eq
+Clupea harengus,,Fish,Chordata,Actinopteri,Clupeiformes,Clupea harengus,eq
+Cnidoglanis macrocephalus,,Fish,Chordata,Actinopteri,Siluriformes,Cnidoglanis macrocephalus,eq
+Coccothraustes coccothraustes,,Bird,Chordata,Aves,Passeriformes,Coccothraustes coccothraustes,eq
+Coccothraustes vespertinus,,Bird,Chordata,Aves,Passeriformes,Hesperiphona vespertina,not_eq
+Coccyzus americanus,,Bird,Chordata,Aves,Cuculiformes,Coccyzus americanus,eq
+Coccyzus erythropthalmus,,Bird,Chordata,Aves,Cuculiformes,Coccyzus erythropthalmus,eq
+Contopus virens,,Bird,Chordata,Aves,Passeriformes,Contopus virens,eq
+Coregonus albellus,,Fish,Chordata,Actinopteri,Salmoniformes,Coregonus albellus,eq
+Coregonus clupeaformis,,Fish,Chordata,Actinopteri,Salmoniformes,Coregonus clupeaformis,eq
+Coregonus fatioi,,Fish,Chordata,Actinopteri,Salmoniformes,Coregonus fatioi,eq
+Coregonus lavaretus,,Fish,Chordata,Actinopteri,Salmoniformes,Coregonus lavaretus,eq
+Coturnix coturnix,,Bird,Chordata,Aves,Galliformes,Coturnix coturnix,eq
+Crepis sancta,,Plant,Streptophyta,Magnoliopsida,Asterales,Crepis sancta,eq
+Cyanocitta cristata,,Bird,Chordata,Aves,Passeriformes,Cyanocitta cristata,eq
+Cygnus olor,,Bird,Chordata,Aves,Anseriformes,Cygnus olor,eq
+Cynoglossum officinale,,Plant,Streptophyta,Magnoliopsida,Boraginales,Cynoglossum officinale,eq
+Cynotilapia afra,,Fish,Chordata,Actinopteri,Cichliformes,Cynotilapia afra,eq
+Cyprinella venusta,,Fish,Chordata,Actinopteri,Cypriniformes,Cyprinella venusta,eq
+Cyprinodon tularosa,white sands pupfish,Fish,Chordata,Actinopteri,Cyprinodontiformes,Cyprinodon tularosa,eq
+Cytisus scoparius,,Plant,Streptophyta,Magnoliopsida,Fabales,Cytisus scoparius,eq
+Dactylis glomerata,,Plant,Streptophyta,Magnoliopsida,Poales,Dactylis glomerata,eq
+Daphnia galeata,,Arthropod,Arthropoda,Branchiopoda,Diplostraca,Daphnia galeata,eq
+Daphnia galeata mendotae,,Arthropod,Arthropoda,Branchiopoda,Diplostraca,Daphnia mendotae,not_eq
+Daphnia melanica,,Arthropod,Arthropoda,Branchiopoda,Diplostraca,Daphnia melanica,eq
+Daphnia retrocurva,,Arthropod,Arthropoda,Branchiopoda,Diplostraca,Daphnia retrocurva,eq
+Datura stramonium,,Plant,Streptophyta,Magnoliopsida,Solanales,Datura stramonium,eq
+Delichon urbica,,Bird,Chordata,Aves,Passeriformes,Delichon urbicum,not_eq
+Deschampsia cespitosa,,Plant,Streptophyta,Magnoliopsida,Poales,Deschampsia cespitosa,eq
+Diaptomus sanguineus,,Arthropod,Arthropoda,Hexanauplia,Calanoida,Onychodiaptomus sanguineus,not_eq
+Digitalis purpurea,,Plant,Streptophyta,Magnoliopsida,Lamiales,Digitalis purpurea,eq
+Dipodomys merriami merriami,,Mammal,Chordata,Mammalia,Rodentia,Dipodomys merriami merriami,eq
+Dreissena polymorpha,,Mollusc,Mollusca,Bivalvia,Myida,Dreissena polymorpha,eq
+Drosophila subobscura,,Arthropod,Arthropoda,Insecta,Diptera,Drosophila subobscura,eq
+Dumetella carolinensis,,Bird,Chordata,Aves,Passeriformes,Dumetella carolinensis,eq
+Echium vulgare,,Plant,Streptophyta,Magnoliopsida,Boraginales,Echium vulgare,eq
+Elymus multisetus,,Plant,Streptophyta,Magnoliopsida,Poales,Elymus multisetus,eq
+Emberiza cia,,Bird,Chordata,Aves,Passeriformes,Emberiza cia,eq
+Emberiza hortulana,,Bird,Chordata,Aves,Passeriformes,Emberiza hortulana,eq
+Emberiza schoeniclus,,Bird,Chordata,Aves,Passeriformes,Emberiza schoeniclus,eq
+Empidonax alnorum/traillii,,Bird,Chordata,Aves,Passeriformes,Empidonax alnorum/traillii,eq
+Empidonax minimus,,Bird,Chordata,Aves,Passeriformes,Empidonax minimus,eq
+Empidonax virescens,,Bird,Chordata,Aves,Passeriformes,Empidonax virescens,eq
+Erithacus rubecula,,Bird,Chordata,Aves,Passeriformes,Erithacus rubecula,eq
+Eschscholzia californica,,Plant,Streptophyta,Magnoliopsida,Ranunculales,Eschscholzia californica,eq
+Esox lucius,,Fish,Chordata,Actinopteri,Esociformes,Esox lucius,eq
+Festuca idahoensis,,Plant,Streptophyta,Magnoliopsida,Poales,Festuca idahoensis,eq
+Festuca ovina,,Plant,Streptophyta,Magnoliopsida,Poales,Festuca ovina,eq
+Festuca rubra,,Plant,Streptophyta,Magnoliopsida,Poales,Festuca rubra,eq
+Festuca rubra ssp. rubra,,Plant,Streptophyta,Magnoliopsida,Poales,Festuca rubra subsp. rubra,not_eq
+Ficedula albicollis,,Bird,Chordata,Aves,Passeriformes,Ficedula albicollis,eq
+Ficedula hypoleuca,Pied Flycatchers,Bird,Chordata,Aves,Passeriformes,Ficedula hypoleuca,eq
+Fringilla coelebs,,Bird,Chordata,Aves,Passeriformes,Fringilla coelebs,eq
+Fringilla montifringilla,,Bird,Chordata,Aves,Passeriformes,Fringilla montifringilla,eq
+Gadus morhua,,Fish,Chordata,Actinopteri,Gadiformes,Gadus morhua,eq
+Galium aparine,,Plant,Streptophyta,Magnoliopsida,Gentianales,Galium aparine,eq
+Gambusia affinis,,Fish,Chordata,Actinopteri,Cyprinodontiformes,Gambusia affinis,eq
+Gambusia holbrooki,,Fish,Chordata,Actinopteri,Cyprinodontiformes,Gambusia holbrooki,eq
+Garrulus glandarius,,Bird,Chordata,Aves,Passeriformes,Garrulus glandarius,eq
+Gasterosteus aculeatus,Threespine stickleback,Fish,Chordata,Actinopteri,Perciformes,Gasterosteus aculeatus,eq
+Geospiza fortis,,Bird,Chordata,Aves,Passeriformes,Geospiza fortis,eq
+Geospiza scandens,,Bird,Chordata,Aves,Passeriformes,Geospiza scandens,eq
+Geothlypis formosa,,Bird,Chordata,Aves,Passeriformes,Geothlypis formosa,eq
+Geothlypis trichas,,Bird,Chordata,Aves,Passeriformes,Geothlypis trichas,eq
+Geranium carolinianum,,Plant,Streptophyta,Magnoliopsida,Geraniales,Geranium carolinianum,eq
+Glechoma hederacea,,Plant,Streptophyta,Magnoliopsida,Lamiales,Glechoma hederacea,eq
+Glyptocephalus cynoglossus,,Fish,Chordata,Actinopteri,Pleuronectiformes,Glyptocephalus cynoglossus,eq
+Gulo gulo,,Mammal,Chordata,Mammalia,Carnivora,Gulo gulo,eq
+Gymnogobius isaza,,Fish,Chordata,Actinopteri,Gobiiformes,Gymnogobius isaza,eq
+Herpestes javanicus,,Mammal,Chordata,Mammalia,Carnivora,Urva javanica,not_eq
+Hesperostipa comata,,Plant,Streptophyta,Magnoliopsida,Poales,Hesperostipa comata,eq
+Hippoglossoides platessoides,,Fish,Chordata,Actinopteri,Pleuronectiformes,Hippoglossoides platessoides,eq
+Hippoglossus hippoglossus,,Fish,Chordata,Actinopteri,Pleuronectiformes,Hippoglossus hippoglossus,eq
+Hippolais icterina,,Bird,Chordata,Aves,Passeriformes,Hippolais icterina,eq
+Hirundo rustica,,Bird,Chordata,Aves,Passeriformes,Hirundo rustica,eq
+Holcus lanatus,,Plant,Streptophyta,Magnoliopsida,Poales,Holcus lanatus,eq
+Hydromantes strinatii,,Amphibian,Chordata,Amphibia,Caudata,Speleomantes strinatii,not_eq
+Hylocichla mustelina,,Bird,Chordata,Aves,Passeriformes,Hylocichla mustelina,eq
+Hypericum perforatum,,Plant,Streptophyta,Magnoliopsida,Malpighiales,Hypericum perforatum,eq
+Hypochaeris radicata,,Plant,Streptophyta,Magnoliopsida,Asterales,Hypochaeris radicata,eq
+Icteria virens,,Bird,Chordata,Aves,Passeriformes,Icteria virens,eq
+Icterus galbula,,Bird,Chordata,Aves,Passeriformes,Icterus galbula,eq
+Impatiens glandulifera,,Plant,Streptophyta,Magnoliopsida,Ericales,Impatiens glandulifera,eq
+Jacobaea vulgaris,,Plant,Streptophyta,Magnoliopsida,Asterales,Jacobaea vulgaris,eq
+Jadera haematoloma,,Arthropod,Arthropoda,Insecta,Hemiptera,Jadera haematoloma,eq
+Junco hyemalis,Dark-eyed Juncos,Bird,Chordata,Aves,Passeriformes,Junco hyemalis,eq
+Jynx torquilla,,Bird,Chordata,Aves,Piciformes,Jynx torquilla,eq
+Koeleria cristata,,Plant,Streptophyta,Magnoliopsida,Poales,Koeleria pyramidata,not_eq
+Koeleria micrantha,,Plant,Streptophyta,Magnoliopsida,Poales,Koeleria macrantha,not_eq
+Labidesthes sicculus,,Fish,Chordata,Actinopteri,Atheriniformes,Labidesthes sicculus,eq
+Lactuca muralis,,Plant,Streptophyta,Magnoliopsida,Asterales,Cicerbita muralis,not_eq
+Lactuca serriola,,Plant,Streptophyta,Magnoliopsida,Asterales,Lactuca serriola,eq
+Lanius collurio,Red-backed Shrike,Bird,Chordata,Aves,Passeriformes,Lanius collurio,eq
+Larus audouinii,,Bird,Chordata,Aves,Charadriiformes,Ichthyaetus audouinii,not_eq
+Lemmus trimucronatus nigripes,,Mammal,Chordata,Mammalia,Rodentia,Lemmus trimucronatus,not_eq
+Lepidium draba,,Plant,Streptophyta,Magnoliopsida,Brassicales,Lepidium draba,eq
+Lepomis gibbosus,,Fish,Chordata,Actinopteri,Centrarchiformes,Lepomis gibbosus,eq
+Lepomis macrochirus,,Fish,Chordata,Actinopteri,Centrarchiformes,Lepomis macrochirus,eq
+Leptocoris tagalicus,,Arthropod,Arthropoda,Insecta,Hemiptera,Leptocoris tagalicus,eq
+Lespedeza cuneata,,Plant,Streptophyta,Magnoliopsida,Fabales,Lespedeza cuneata,eq
+Limnodrilus hoffmeisteri,,Annelid,Annelida,Clitellata,Tubificida,Limnodrilus hoffmeisteri,eq
+Littorina obtusata,,Mollusc,Mollusca,Gastropoda,Littorinimorpha,Littorina obtusata,eq
+Locustella fluviatilis,,Bird,Chordata,Aves,Passeriformes,Locustella fluviatilis,eq
+Locustella naevia,,Bird,Chordata,Aves,Passeriformes,Locustella naevia,eq
+Lolium multiflorum,,Plant,Streptophyta,Magnoliopsida,Poales,Lolium multiflorum,eq
+Lolium perenne,,Plant,Streptophyta,Magnoliopsida,Poales,Lolium perenne,eq
+Lolium rigidum,,Plant,Streptophyta,Magnoliopsida,Poales,Lolium rigidum,eq
+Lophuromys flavopunctatus zena,,Mammal,Chordata,Mammalia,Rodentia,Lophuromys flavopunctatus,not_eq
+Lotus purshianus,,Plant,Streptophyta,Magnoliopsida,Fabales,Acmispon americanus,not_eq
+Lotus wrangelianus,,Plant,Streptophyta,Magnoliopsida,Fabales,Acmispon wrangelianus,not_eq
+Loxia curvirostra,,Bird,Chordata,Aves,Passeriformes,Loxia curvirostra,eq
+Lullula arborea,,Bird,Chordata,Aves,Passeriformes,Lullula arborea,eq
+Lupinus bicolor,,Plant,Streptophyta,Magnoliopsida,Fabales,Lupinus bicolor,eq
+Luscinia megarhynchos,,Bird,Chordata,Aves,Passeriformes,Luscinia megarhynchos,eq
+Lynx canadensis,,Mammal,Chordata,Mammalia,Carnivora,Lynx canadensis,eq
+Lythrum salicaria,,Plant,Streptophyta,Magnoliopsida,Myrtales,Lythrum salicaria,eq
+Macropus giganteus,,Mammal,Chordata,Mammalia,Diprodontia,Macropus giganteus,eq
+Macropus rufogriseus,,Mammal,Chordata,Mammalia,Diprodontia,Notamacropus rufogriseus,not_eq
+Malaclemys terrapin,,Reptile,Chordata,Archelosauria,Testudines,Malaclemys terrapin,eq
+Malus domestica,,Plant,Streptophyta,Magnoliopsida,Rosales,Malus domestica,eq
+Martes americana,,Mammal,Chordata,Mammalia,Carnivora,Martes americana,eq
+Martes foina,,Mammal,Chordata,Mammalia,Carnivora,Martes foina,eq
+Martes martes,,Mammal,Chordata,Mammalia,Carnivora,Martes martes,eq
+Martes melampus,,Mammal,Chordata,Mammalia,Carnivora,Martes melampus,eq
+Medicago polymorpha,,Plant,Streptophyta,Magnoliopsida,Fabales,Medicago polymorpha,eq
+Melaleuca quinquenervia,,Plant,Streptophyta,Magnoliopsida,Myrtales,Melaleuca quinquenervia,eq
+Melanerpes carolinus,,Bird,Chordata,Aves,Piciformes,Melanerpes carolinus,eq
+Melanogrammus aeglefinus,,Fish,Chordata,Actinopteri,Gadiformes,Melanogrammus aeglefinus,eq
+Meles meles,,Mammal,Chordata,Mammalia,Carnivora,Meles meles,eq
+Melilotus officinalis,,Plant,Streptophyta,Magnoliopsida,Fabales,Melilotus officinalis,eq
+Melospiza georgiana,,Bird,Chordata,Aves,Passeriformes,Melospiza georgiana,eq
+Melospiza lincolnii,,Bird,Chordata,Aves,Passeriformes,Melospiza lincolnii,eq
+Melospiza melodia,,Bird,Chordata,Aves,Passeriformes,Melospiza melodia,eq
+Merlangius merlangus,,Fish,Chordata,Actinopteri,Gadiformes,Merlangius merlangus,eq
+Merluccius bilinears,,Fish,Chordata,Actinopteri,Gadiformes,Merluccius bilinearis,not_eq
+Metriaclima zebra,,Fish,Chordata,Actinopteri,Cichliformes,Maylandia zebra,not_eq
+Microtus mexicanus mexicanus,,Mammal,Chordata,Mammalia,Rodentia,Microtus mexicanus,not_eq
+Microtus pennsylvanicus pennsylvanicus,,Mammal,Chordata,Mammalia,Rodentia,Microtus pennsylvanicus pennsylvanicus,eq
+Mimulus guttatus,,Plant,Streptophyta,Magnoliopsida,Lamiales,Erythranthe guttata,not_eq
+Mniotilta varia,,Bird,Chordata,Aves,Passeriformes,Mniotilta varia,eq
+Molothrus ater,,Bird,Chordata,Aves,Passeriformes,Molothrus ater,eq
+Motacilla alba,,Bird,Chordata,Aves,Passeriformes,Motacilla alba,eq
+Motacilla cinerea,,Bird,Chordata,Aves,Passeriformes,Motacilla cinerea,eq
+Motacilla flava,,Bird,Chordata,Aves,Passeriformes,Motacilla flava,eq
+Muscicapa striata,,Bird,Chordata,Aves,Passeriformes,Muscicapa striata,eq
+Mus musculus,,Mammal,Chordata,Mammalia,Rodentia,Mus musculus,eq
+Mustela erminea,,Mammal,Chordata,Mammalia,Carnivora,Mustela erminea,eq
+Mustela frenata,,Mammal,Chordata,Mammalia,Carnivora,Mustela frenata,eq
+Mustela nivalis,,Mammal,Chordata,Mammalia,Carnivora,Mustela nivalis,eq
+Mustela putorius,,Mammal,Chordata,Mammalia,Carnivora,Mustela putorius,eq
+Mustela vison,,Mammal,Chordata,Mammalia,Carnivora,Neogale vison,not_eq
+Myiarchus crinitus,,Bird,Chordata,Aves,Passeriformes,Myiarchus crinitus,eq
+Notropis atherinoides,,Fish,Chordata,Actinopteri,Cypriniformes,Notropis atherinoides,eq
+Nucella lapillus,,Mollusc,Mollusca,Gastropoda,Neogastropoda,Nucella lapillus,eq
+Nyctereutes procyonoides,,Mammal,Chordata,Mammalia,Carnivora,Nyctereutes procyonoides,eq
+Oenanthe oenanthe,,Bird,Chordata,Aves,Passeriformes,Oenanthe oenanthe,eq
+Oenothera biennis,,Plant,Streptophyta,Magnoliopsida,Myrtales,Oenothera biennis,eq
+Oligoryzomys longicaudatus philippii,,Mammal,Chordata,Mammalia,Rodentia,Oligoryzomys longicaudatus philippii,eq
+Oncorhynchus gorbuscha,,Fish,Chordata,Actinopteri,Salmoniformes,Oncorhynchus gorbuscha,eq
+Oncorhynchus keta,,Fish,Chordata,Actinopteri,Salmoniformes,Oncorhynchus keta,eq
+Oncorhynchus kisutch,,Fish,Chordata,Actinopteri,Salmoniformes,Oncorhynchus kisutch,eq
+Oncorhynchus mykiss,,Fish,Chordata,Actinopteri,Salmoniformes,Oncorhynchus mykiss,eq
+Oncorhynchus nerka,,Fish,Chordata,Actinopteri,Salmoniformes,Oncorhynchus nerka,eq
+Oncorhynchus tshawytscha,,Fish,Chordata,Actinopteri,Salmoniformes,Oncorhynchus tshawytscha,eq
+Onthophagus taurus,,Arthropod,Arthropoda,Insecta,Coleoptera,Onthophagus taurus,eq
+Oreothlypis celata,,Bird,Chordata,Aves,Passeriformes,Leiothlypis celata,not_eq
+Oreothlypis ruficapilla,,Bird,Chordata,Aves,Passeriformes,Leiothlypis ruficapilla,not_eq
+Oryctolagus cuniculus,,Mammal,Chordata,Mammalia,Lagomorpha,Oryctolagus cuniculus,eq
+Ovis aries,,Mammal,Chordata,Mammalia,Artiodactyla,Ovis aries,eq
+Ovis canadensis,,Mammal,Chordata,Mammalia,Artiodactyla,Ovis canadensis,eq
+Panax quinquefolius,,Plant,Streptophyta,Magnoliopsida,Apiales,Panax quinquefolius,eq
+Pararge aegeria aegeria,,Arthropod,Arthropoda,Insecta,Lepidoptera,Pararge aegeria aegeria,eq
+Pararge aegeria tircis,,Arthropod,Arthropoda,Insecta,Lepidoptera,Pararge aegeria tircis,eq
+Parkesia motacilla,,Bird,Chordata,Aves,Passeriformes,Parkesia motacilla,eq
+Parkesia noveboracensis,,Bird,Chordata,Aves,Passeriformes,Parkesia noveboracensis,eq
+Parus ater,,Bird,Chordata,Aves,Passeriformes,Periparus ater,not_eq
+Parus caeruleus,blue tit,Bird,Chordata,Aves,Passeriformes,Cyanistes caeruleus,not_eq
+Parus major,great tit,Bird,Chordata,Aves,Passeriformes,Parus major,eq
+Passer domesticus,,Bird,Chordata,Aves,Passeriformes,Passer domesticus,eq
+Passerella iliaca,,Bird,Chordata,Aves,Passeriformes,Passerella iliaca,eq
+Passerina cyanea,,Bird,Chordata,Aves,Passeriformes,Passerina cyanea,eq
+Passer montanus,,Bird,Chordata,Aves,Passeriformes,Passer montanus,eq
+Pastinaca sativa,,Plant,Streptophyta,Magnoliopsida,Apiales,Pastinaca sativa,eq
+Peromyscus leucopus,,Mammal,Chordata,Mammalia,Rodentia,Peromyscus leucopus,eq
+Peromyscus leucopus noveboracensis,,Mammal,Chordata,Mammalia,Rodentia,Peromyscus leucopus noveboracensis,not_eq
+Peromyscus maniculatus anacapae,,Mammal,Chordata,Mammalia,Rodentia,Peromyscus maniculatus anacapae,eq
+Peromyscus maniculatus blandus,,Mammal,Chordata,Mammalia,Rodentia,Peromyscus maniculatus blandus,eq
+Peromyscus maniculatus elusus,,Mammal,Chordata,Mammalia,Rodentia,Peromyscus maniculatus elusus,eq
+Peromyscus maniculatus nubiterrae,,Mammal,Chordata,Mammalia,Rodentia,Peromyscus maniculatus nubiterrae,eq
+Peromyscus maniculatus santacruzae,,Mammal,Chordata,Mammalia,Rodentia,Peromyscus maniculatus santacruzae,eq
+Phalaris arundinacea,,Plant,Streptophyta,Magnoliopsida,Poales,Phalaris arundinacea,eq
+Pheucticus ludovicianus,,Bird,Chordata,Aves,Passeriformes,Pheucticus ludovicianus,eq
+Phleum pratense,,Plant,Streptophyta,Magnoliopsida,Poales,Phleum pratense,eq
+Phoenicurus ochruros,,Bird,Chordata,Aves,Passeriformes,Phoenicurus ochruros,eq
+Phoenicurus phoenicurus,,Bird,Chordata,Aves,Passeriformes,Phoenicurus phoenicurus,eq
+Phylloscopus collybita,,Bird,Chordata,Aves,Passeriformes,Phylloscopus collybita,eq
+Phylloscopus sibilatrix,,Bird,Chordata,Aves,Passeriformes,Phylloscopus sibilatrix,eq
+Phylloscopus trochilus,,Bird,Chordata,Aves,Passeriformes,Phylloscopus trochilus,eq
+Phyllotis xanthopygus chilensis,,Mammal,Chordata,Mammalia,Rodentia,Phyllotis xanthopygus chilensis,eq
+Physa virgata,,Mollusc,Mollusca,Gastropoda,Hygrophila,Physella virgata,not_eq
+Picoides pubescens,,Bird,Chordata,Aves,Piciformes,Dryobates pubescens,not_eq
+Picoides villosus,,Bird,Chordata,Aves,Piciformes,Picoides villosus,eq
+Pieris rapae,,Arthropod,Arthropoda,Insecta,Lepidoptera,Pieris rapae,eq
+Pipilo erythrophthalmus,,Bird,Chordata,Aves,Passeriformes,Pipilo erythrophthalmus,eq
+Piptochaetium napostaense,,Plant,Streptophyta,Magnoliopsida,Poales,Piptochaetium napostaense,eq
+Piranga olivacea,,Bird,Chordata,Aves,Passeriformes,Piranga olivacea,eq
+Pitangus sulphuratus,great kiskadees,Bird,Chordata,Aves,Passeriformes,Pitangus sulphuratus,eq
+Plantago lanceolata,,Plant,Streptophyta,Magnoliopsida,Lamiales,Plantago lanceolata,eq
+Plantago major,,Plant,Streptophyta,Magnoliopsida,Lamiales,Plantago major,eq
+Pleuronectes platessa,,Fish,Chordata,Actinopteri,Pleuronectiformes,Pleuronectes platessa,eq
+Poa annua,,Plant,Streptophyta,Magnoliopsida,Poales,Poa annua,eq
+Poa pratensis,,Plant,Streptophyta,Magnoliopsida,Poales,Poa pratensis,eq
+Poa sandbergii,,Plant,Streptophyta,Magnoliopsida,Poales,Poa sandbergii,eq
+Podarcis sicula,,Reptile,Chordata,Lepidosauria,Squamata,Podarcis siculus,not_eq
+Poecile atricapillus,,Bird,Chordata,Aves,Passeriformes,Poecile atricapillus,eq
+Poecilia reticulata,,Fish,Chordata,Actinopteri,Cyprinodontiformes,Poecilia reticulata,eq
+Polioptila caerulea,,Bird,Chordata,Aves,Passeriformes,Polioptila caerulea,eq
+Polygonum cespitosum,,Plant,Streptophyta,Magnoliopsida,Caryophyllales,Persicaria posumbu,not_eq
+Praomys jacksoni,,Mammal,Chordata,Mammalia,Rodentia,Praomys jacksoni,eq
+Procyon lotor,,Mammal,Chordata,Mammalia,Carnivora,Procyon lotor,eq
+Prunella modularis,,Bird,Chordata,Aves,Passeriformes,Prunella modularis,eq
+Prunella vulgaris,,Plant,Streptophyta,Magnoliopsida,Lamiales,Prunella vulgaris,eq
+Pseudechis porphyriacus,,Reptile,Chordata,Lepidosauria,Squamata,Pseudechis porphyriacus,eq
+Pseudoroegneria spicata,,Plant,Streptophyta,Magnoliopsida,Poales,Pseudoroegneria spicata,eq
+Pyrrhula pyrrhula,,Bird,Chordata,Aves,Passeriformes,Pyrrhula pyrrhula,eq
+Quiscalus quiscula,,Bird,Chordata,Aves,Passeriformes,Quiscalus quiscula,eq
+Rana arvalis,,Amphibian,Chordata,Amphibia,Anura,Rana arvalis,eq
+Rana esculenta complex,,Amphibian,Chordata,Amphibia,Anura,Pelophylax lessonae/ridibunda,not_eq
+Rana sylvatica,,Amphibian,Chordata,Amphibia,Anura,Lithobates sylvaticus,not_eq
+Rangifer t. tarandus,,Mammal,Chordata,Mammalia,Artiodactyla,Rangifer tarandus tarandus,not_eq
+Ranunculus bulbosus,,Plant,Streptophyta,Magnoliopsida,Ranunculales,Ranunculus bulbosus,eq
+Raphanus raphanistrum,,Plant,Streptophyta,Magnoliopsida,Brassicales,Raphanus raphanistrum,eq
+Raphanus raphanistrum X R. sativus,,Plant,Streptophyta,Magnoliopsida,Brassicales,Raphanus raphanistrum X Raphanus sativus,not_eq
+Rattus rattus,,Mammal,Chordata,Mammalia,Rodentia,Rattus rattus,eq
+Rattus tanezumi mindanensis,,Mammal,Chordata,Mammalia,Rodentia,Rattus tanezumi,not_eq
+Regulus calendula,,Bird,Chordata,Aves,Passeriformes,Regulus calendula,eq
+Regulus ignicapillus,,Bird,Chordata,Aves,Passeriformes,Regulus ignicapilla,not_eq
+Regulus regulus,,Bird,Chordata,Aves,Passeriformes,Regulus regulus,eq
+Rhododendron ponticum,,Plant,Streptophyta,Magnoliopsida,Ericales,Rhododendron ponticum,eq
+Riparia riparia,,Bird,Chordata,Aves,Passeriformes,Riparia riparia,eq
+Rorippa austriaca,,Plant,Streptophyta,Magnoliopsida,Brassicales,Rorippa austriaca,eq
+Rumex acetosa,,Plant,Streptophyta,Magnoliopsida,Caryophyllales,Rumex acetosa,eq
+Rumex acetosella,,Plant,Streptophyta,Magnoliopsida,Caryophyllales,Rumex acetosella,eq
+Rumex crispus,,Plant,Streptophyta,Magnoliopsida,Caryophyllales,Rumex crispus,eq
+Salmo salar,,Fish,Chordata,Actinopteri,Salmoniformes,Salmo salar,eq
+Salmo trutta,,Fish,Chordata,Actinopteri,Salmoniformes,Salmo trutta,eq
+Salvelinus alpinus,,Fish,Chordata,Actinopteri,Salmoniformes,Salvelinus alpinus,eq
+Sander lucioperca,,Fish,Chordata,Actinopteri,Perciformes,Sander lucioperca,eq
+Sanguisorba officinalis,,Plant,Streptophyta,Magnoliopsida,Rosales,Sanguisorba officinalis,eq
+Sapium sebiferum,,Plant,Streptophyta,Magnoliopsida,Malpighiales,Triadica sebifera,not_eq
+Sardinops ocellatus,,Fish,Chordata,Actinopteri,Clupeiformes,Sardinops ocellatus,eq
+Saussurea laniceps,,Plant,Streptophyta,Magnoliopsida,Asterales,Saussurea laniceps,eq
+Saussurea medusa,,Plant,Streptophyta,Magnoliopsida,Asterales,Saussurea medusa,eq
+Saussurea nigrescens,,Plant,Streptophyta,Magnoliopsida,Asterales,Saussurea nigrescens,eq
+Saxicola rubetra,,Bird,Chordata,Aves,Passeriformes,Saxicola rubetra,eq
+Sayornis phoebe,,Bird,Chordata,Aves,Passeriformes,Sayornis phoebe,eq
+Scabiosa columbaria,,Plant,Streptophyta,Magnoliopsida,Dipsacales,Scabiosa columbaria,eq
+Scathophaga stercoraria,,Arthropod,Arthropoda,Insecta,Diptera,Scathophaga stercoraria,eq
+Schizachyrium scoparium,,Plant,Streptophyta,Magnoliopsida,Poales,Schizachyrium scoparium,eq
+Sciurus carolinensis pennsylvanicus,,Mammal,Chordata,Mammalia,Rodentia,Neosciurus carolinensis,not_eq
+Secale cereale,,Plant,Streptophyta,Magnoliopsida,Poales,Secale cereale,eq
+Seiurus aurocapilla,,Bird,Chordata,Aves,Passeriformes,Seiurus aurocapilla,eq
+Senecio inaequidens,,Plant,Streptophyta,Magnoliopsida,Asterales,Senecio inaequidens,eq
+Senecio jacobaea,,Plant,Streptophyta,Magnoliopsida,Asterales,Jacobaea vulgaris,not_eq
+Senecio pterophorus,,Plant,Streptophyta,Magnoliopsida,Asterales,Senecio pterophorus,eq
+Senecio squalidus,,Plant,Streptophyta,Magnoliopsida,Asterales,Senecio squalidus,eq
+Senecio sylvaticus,,Plant,Streptophyta,Magnoliopsida,Asterales,Senecio sylvaticus,eq
+Senecio vulgaris,,Plant,Streptophyta,Magnoliopsida,Asterales,Senecio vulgaris,eq
+Serinus citrinella,,Bird,Chordata,Aves,Passeriformes,Serinus citrinella,eq
+Serinus serinus,,Bird,Chordata,Aves,Passeriformes,Serinus serinus,eq
+Setophaga americana,,Bird,Chordata,Aves,Passeriformes,Setophaga americana,eq
+Setophaga caerulescens,,Bird,Chordata,Aves,Passeriformes,Setophaga caerulescens,eq
+Setophaga castanea,,Bird,Chordata,Aves,Passeriformes,Setophaga castanea,eq
+Setophaga citrina,,Bird,Chordata,Aves,Passeriformes,Setophaga citrina,eq
+Setophaga coronata,,Bird,Chordata,Aves,Passeriformes,Setophaga coronata,eq
+Setophaga fusca,,Bird,Chordata,Aves,Passeriformes,Setophaga fusca,eq
+Setophaga petechia,,Bird,Chordata,Aves,Passeriformes,Setophaga petechia,eq
+Setophaga ruticilla,,Bird,Chordata,Aves,Passeriformes,Setophaga ruticilla,eq
+Setophaga striata,,Bird,Chordata,Aves,Passeriformes,Setophaga striata,eq
+Setophaga tigrina,,Bird,Chordata,Aves,Passeriformes,Setophaga tigrina,eq
+Setophaga virens,,Bird,Chordata,Aves,Passeriformes,Setophaga virens,eq
+Sialia sialis,,Bird,Chordata,Aves,Passeriformes,Sialia sialis,eq
+Silene latifolia,,Plant,Streptophyta,Magnoliopsida,Caryophyllales,Silene latifolia,eq
+Sitta carolinensis,,Bird,Chordata,Aves,Passeriformes,Sitta carolinensis,eq
+Sitta europaea,,Bird,Chordata,Aves,Passeriformes,Sitta europaea,eq
+Solanum dulcamara,,Plant,Streptophyta,Magnoliopsida,Solanales,Solanum dulcamara,eq
+Solidago altissima,,Plant,Streptophyta,Magnoliopsida,Asterales,Solidago canadensis var. scabra,not_eq
+Solidago canadensis,,Plant,Streptophyta,Magnoliopsida,Asterales,Solidago canadensis var. canadensis,not_eq
+Solidago gigantea,,Plant,Streptophyta,Magnoliopsida,Asterales,Solidago gigantea,eq
+Spartina alterniflora,,Plant,Streptophyta,Magnoliopsida,Poales,Sporobolus alterniflorus,not_eq
+Spilogale gracilis,,Mammal,Chordata,Mammalia,Carnivora,Spilogale gracilis,eq
+Spinus pinus,,Bird,Chordata,Aves,Passeriformes,Spinus pinus,eq
+Spinus tristis,,Bird,Chordata,Aves,Passeriformes,Spinus tristis,eq
+Spizella passerina,,Bird,Chordata,Aves,Passeriformes,Spizella passerina,eq
+Spizella pusilla,,Bird,Chordata,Aves,Passeriformes,Spizella pusilla,eq
+Sporobolus airoides,,Plant,Streptophyta,Magnoliopsida,Poales,Sporobolus airoides,eq
+Stelgidopteryx serripennis,,Bird,Chordata,Aves,Passeriformes,Stelgidopteryx serripennis,eq
+Stellaria graminea,,Plant,Streptophyta,Magnoliopsida,Caryophyllales,Stellaria graminea,eq
+Sterna paradisaea,,Bird,Chordata,Aves,Charadriiformes,Sterna paradisaea,eq
+Stipa occidentalis,,Plant,Streptophyta,Magnoliopsida,Poales,Stipa occidentalis,eq
+Sturnia philippensis,,Bird,Chordata,Aves,Passeriformes,Sturnus philippensis,not_eq
+Sturnus vulgaris,,Bird,Chordata,Aves,Passeriformes,Sturnus vulgaris,eq
+Sylvia atricapilla,,Bird,Chordata,Aves,Passeriformes,Sylvia atricapilla,eq
+Sylvia borin,,Bird,Chordata,Aves,Passeriformes,Sylvia borin,eq
+Sylvia communis,,Bird,Chordata,Aves,Passeriformes,Sylvia communis,eq
+Tachycineta bicolor,,Bird,Chordata,Aves,Passeriformes,Tachycineta bicolor,eq
+Tachyoryctes splendens naivashae,,Mammal,Chordata,Mammalia,Rodentia,Tachyoryctes splendens,not_eq
+Tamiasciurus hudsonicus,,Mammal,Chordata,Mammalia,Rodentia,Tamiasciurus hudsonicus,eq
+Tamias striatus griseus,,Mammal,Chordata,Mammalia,Rodentia,Tamias striatus,not_eq
+Telespyza cantans,,Bird,Chordata,Aves,Passeriformes,Telespiza cantans,not_eq
+Thomomys umbrinus umbrinus,,Mammal,Chordata,Mammalia,Rodentia,Thomomys umbrinus,not_eq
+Thryothorus ludovicianus,,Bird,Chordata,Aves,Passeriformes,Thryothorus ludovicianus,eq
+Thymallus thymallus,,Fish,Chordata,Actinopteri,Salmoniformes,Thymallus thymallus,eq
+Toxostoma rufum,,Bird,Chordata,Aves,Passeriformes,Toxostoma rufum,eq
+Triadica sebifera,,Plant,Streptophyta,Magnoliopsida,Malpighiales,Triadica sebifera,eq
+Trifolium pratense,,Plant,Streptophyta,Magnoliopsida,Fabales,Trifolium pratense,eq
+Trisopterus esmarkii,,Fish,Chordata,Actinopteri,Gadiformes,Trisopterus esmarkii,eq
+Tristerix corymbosus,,Plant,Streptophyta,Magnoliopsida,Santalales,Tristerix corymbosus,eq
+Troglodytes aedon,,Bird,Chordata,Aves,Passeriformes,Troglodytes aedon,eq
+Troglodytes troglodytes,,Bird,Chordata,Aves,Passeriformes,Troglodytes troglodytes,eq
+Turdus iliacus,,Bird,Chordata,Aves,Passeriformes,Turdus iliacus,eq
+Turdus merula,,Bird,Chordata,Aves,Passeriformes,Turdus merula,eq
+Turdus migratorius,,Bird,Chordata,Aves,Passeriformes,Turdus migratorius,eq
+Turdus philomelos,,Bird,Chordata,Aves,Passeriformes,Turdus philomelos,eq
+Turdus torquatus alpestris,,Bird,Chordata,Aves,Passeriformes,Turdus torquatus,not_eq
+Turdus torquatus torquatus,,Bird,Chordata,Aves,Passeriformes,Turdus torquatus torquatus,eq
+Turdus viscivorus,,Bird,Chordata,Aves,Passeriformes,Turdus viscivorus,eq
+Tussilago farfara,,Plant,Streptophyta,Magnoliopsida,Asterales,Tussilago farfara,eq
+Ulex europaeus,,Plant,Streptophyta,Magnoliopsida,Fabales,Ulex europaeus,eq
+Urocyon cinereoargenteus,,Mammal,Chordata,Mammalia,Carnivora,Urocyon cinereoargenteus,eq
+Urocyon littoralis,,Mammal,Chordata,Mammalia,Carnivora,Urocyon littoralis,eq
+Ursus arctos,,Mammal,Chordata,Mammalia,Carnivora,Ursus arctos,eq
+Vermivora chrysoptera,,Bird,Chordata,Aves,Passeriformes,Vermivora chrysoptera,eq
+Vermivora cyanoptera,,Bird,Chordata,Aves,Passeriformes,Vermivora cyanoptera,eq
+Veronica hederifolia,,Plant,Streptophyta,Magnoliopsida,Lamiales,Veronica hederifolia,eq
+Vestiaria coccinea,,Bird,Chordata,Aves,Passeriformes,Vestiaria coccinea,eq
+Vireo griseus,,Bird,Chordata,Aves,Passeriformes,Vireo griseus,eq
+Vireo olivaceus,,Bird,Chordata,Aves,Passeriformes,Vireo olivaceus,eq
+Vireo philadelphicus,,Bird,Chordata,Aves,Passeriformes,Vireo philadelphicus,eq
+Vireo solitarius,,Bird,Chordata,Aves,Passeriformes,Vireo solitarius,eq
+Viverra tangalunga,,Mammal,Chordata,Mammalia,Carnivora,Viverra tangalunga,eq
+Vulpes vulpes,,Mammal,Chordata,Mammalia,Carnivora,Vulpes vulpes,eq
+Wyeomyia smithii,,Arthropod,Arthropoda,Insecta,Diptera,Wyeomyia smithii,eq
+Zea mays,,Plant,Streptophyta,Magnoliopsida,Poales,Zea mays,eq
+Zenaida macroura,,Bird,Chordata,Aves,Columbiformes,Zenaida macroura,eq
+Zonotrichia albicollis,,Bird,Chordata,Aves,Passeriformes,Zonotrichia albicollis,eq
+Zonotrichia leucophrys,,Bird,Chordata,Aves,Passeriformes,Zonotrichia leucophrys,eq
+Zosterops lateralis,,Bird,Chordata,Aves,Passeriformes,Zosterops lateralis,eq
+Baeolophus bicolor,,Bird,Chordata,Aves,Passeriformes,Baeolophus bicolor,eq
+Colaptes auratus auratus,,Bird,Chordata,Aves,Piciformes,Colaptes auratus,not_eq
+Contopus cooperi,,Bird,Chordata,Aves,Passeriformes,Contopus cooperi,eq
+Helmitheros vermivorum,,Bird,Chordata,Aves,Passeriformes,Helmitheros vermivorum,eq
+Icterus spurius,,Bird,Chordata,Aves,Passeriformes,Icterus spurius,eq
+Junco hyemalis hyemalis,Slate-colored Junco,Bird,Chordata,Aves,Passeriformes,Junco hyemalis,not_eq
+Setophaga cerulea,,Bird,Chordata,Aves,Passeriformes,Setophaga cerulea,eq
+Setophaga discolor,,Bird,Chordata,Aves,Passeriformes,Setophaga discolor,eq
+Setophaga dominica,,Bird,Chordata,Aves,Passeriformes,Setophaga dominica,eq
+Tyrannus tyrannus,,Bird,Chordata,Aves,Passeriformes,Tyrannus tyrannus,eq
+Vireo flavifrons,,Bird,Chordata,Aves,Passeriformes,Vireo flavifrons,eq
+Vireo gilvus,,Bird,Chordata,Aves,Passeriformes,Vireo gilvus,eq
